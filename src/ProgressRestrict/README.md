@@ -1,5 +1,16304 @@
 # ProgressRestrict 超进度检测
 
+- Author: Shaosiming & Modified by Lianlian (Three-in-One)
+- Source: github
+- Progress Restriction Check
+- Can perform progress restriction checks on items, projectiles, and buffs
+
+> [!NOTE]  
+> Requires prerequisite plugin: DataSync (in this repository) 
+
+## Commands
+
+| Syntax |             Permission             |       Description        |
+|--------|:--------------------------------:|:---------------------:|
+| None   |    progress.item.white     |   Progress item check whitelist permission   |
+| None   | progress.projecttile.white |   Progress projectile check whitelist permission   |
+| None   |    progress.buff.white     | Progress buff check whitelist permission |
+
+## Configuration
+> Configuration file location: tshock/超进度检测.json
+
+# ProgressRestrict (English)
+
+- Author: Shaosiming & Modified by Lianlian (Three-in-One)
+- Source: github
+- Progress Restriction Check
+- Can perform progress restriction checks on items, projectiles, and buffs
+
+> [!NOTE]  
+> Requires prerequisite plugin: DataSync (in this repository) 
+
+## Commands
+
+| Syntax |             Permission             |       Description        |
+|--------|:--------------------------------:|:---------------------:|
+| None   |    progress.item.white     |   Progress item check whitelist permission   |
+| None   | progress.projecttile.white |   Progress projectile check whitelist permission   |
+| None   |    progress.buff.white     | Progress buff check whitelist permission |
+
+## Configuration
+> Configuration file location: tshock/ProgressRestrict.json
+```json5
+{
+  "PunishViolations": true,
+  "PunishmentDebuffDuration": 5,
+  "AnnounceViolators": true,
+  "LogViolations": true,
+  "RemoveViolatingItems": true,
+  "RemoveViolatingBuffs": true,
+  "KickViolatingPlayers": false,
+  "RestrictionList": [
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+# ProgressRestrict 超进度检测
+
+- Author: Shaosiming & Modified by Lianlian (Three-in-One)
+- Source: github
+- Progress Restriction Check
+- Can perform progress restriction checks on items, projectiles, and buffs
+
+> [!NOTE]  
+> Requires prerequisite plugin: DataSync (in this repository) 
+
+## Commands
+
+| Syntax |             Permission             |       Description        |
+|--------|:--------------------------------:|:---------------------:|
+| None   |    progress.item.white     |   Progress item check whitelist permission   |
+| None   | progress.projecttile.white |   Progress projectile check whitelist permission   |
+| None   |    progress.buff.white     | Progress buff check whitelist permission |
+
+## Configuration
+> Configuration file location: tshock/超进度检测.json
+```json5
+{
+  "PunishViolations": true,
+  "PunishmentDebuffDuration": 5,
+  "AnnounceViolators": true,
+  "LogViolations": true,
+  "RemoveViolatingItems": true,
+  "RemoveViolatingBuffs": true,
+  "KickViolatingPlayers": false,
+  "RestrictionList": [
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Eye of Cthulhu",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Evil Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Queen Bee",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Wall of Flesh",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Any Mechanical Boss",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Twins",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "The Destroyer",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "Skeletron Prime",
+      "CrossServerUnlock": false
+    },
+    {
+      "RestrictedItems": [],
+      "RestrictedProjectiles": [],
+      "RestrictedBuffs": [],
+      "CorrespondingProgress": "King Slime",
+# ProgressRestrict 超进度检测
+
 - 作者: 少司命 & 恋恋魔改三合一
 - 出处: github
 - 超进度检测

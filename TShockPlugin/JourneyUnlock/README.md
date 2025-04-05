@@ -29,4 +29,4 @@ None
 ## Feedback
 - Priority: Create an issue -> Shared plugin repository: https://github.com/UnrealMultiple/TShockPlugin
 - Secondary: TShock official group: 816771079
-- Less likely to be seen but still possible: Domestic communities trhub.cn, bbstr.net, tr.monika.love
+- Less likely to be seen but still possible: Domestic communities trhub.cn, bbstr.net, tr.monika.love 
