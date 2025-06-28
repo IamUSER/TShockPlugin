@@ -23,7 +23,7 @@ public partial class ZHIPM
     {
         if (args.Parameters.Count != 0)
         {
-            args.Player.SendInfoMessage(GetString("输入 /zhelp  来查看指令帮助"));
+            args.Player.SendInfoMessage(GetString("输入 /zhelp 来查看指令帮助"));
         }
         else
         {
@@ -78,8 +78,8 @@ public partial class ZHIPM
         {
             if (!int.TryParse(args.Parameters[1], out var num))
             {
-                args.Player.SendInfoMessage(GetString("输入 /zback <name>  来读取该玩家的最新人物存档\n") +
-                                            GetString("输入 /zback <name> <num>  来读取该玩家的第几个人物存档"));
+                args.Player.SendInfoMessage(GetString("输入 /zback <name> 来读取该玩家的最新人物存档\n") +
+                                            GetString("输入 /zback <name> <num> 来读取该玩家的第几个人物存档"));
                 return;
             }
 
@@ -93,8 +93,8 @@ public partial class ZHIPM
         }
         else
         {
-            args.Player.SendInfoMessage(GetString("输入 /zback <name>  来读取该玩家的最新人物存档\n") +
-                                        GetString("输入 /zback <name> <num>  来读取该玩家的第几个人物存档"));
+            args.Player.SendInfoMessage(GetString("输入 /zback <name> 来读取该玩家的最新人物存档\n") +
+                                        GetString("输入 /zback <name> <num> 来读取该玩家的第几个人物存档"));
         }
     }
 
@@ -107,7 +107,7 @@ public partial class ZHIPM
     {
         if (args.Parameters.Count != 0)
         {
-            args.Player.SendInfoMessage(GetString("输入 /zsave  来备份自己的人物存档"));
+            args.Player.SendInfoMessage(GetString("输入 /zsave 来备份自己的人物存档"));
             return;
         }
 
@@ -149,7 +149,7 @@ public partial class ZHIPM
 
         if (args.Parameters.Count != 1)
         {
-            args.Player.SendInfoMessage(GetString("输入 /zsaveauto [minute]  来每隔 minute 分钟自动备份自己的人物存档，当 minute 为 0 时关闭该功能"));
+            args.Player.SendInfoMessage(GetString("输入 /zsaveauto [minute] 来每隔 minute 分钟自动备份自己的人物存档，当 minute 为 0 时关闭该功能"));
             return;
         }
 
@@ -181,7 +181,7 @@ public partial class ZHIPM
         }
         else
         {
-            args.Player.SendInfoMessage(GetString("输入 /zsaveauto [minute]  来每隔 minute 分钟自动备份自己的人物存档，当 minute 为 0 时关闭该功能"));
+            args.Player.SendInfoMessage(GetString("输入 /zsaveauto [minute] 来每隔 minute 分钟自动备份自己的人物存档，当 minute 为 0 时关闭该功能"));
         }
     }
 
@@ -345,8 +345,8 @@ public partial class ZHIPM
     {
         if (args.Parameters.Count == 0 || args.Parameters.Count > 2)
         {
-            args.Player.SendInfoMessage(GetString("输入 /zclone [name1] [name2]  将玩家1的人物数据复制给玩家2\n") +
-                                        GetString("输入 /zclone [name]  将该玩家的人物数据复制给自己"));
+            args.Player.SendInfoMessage(GetString("输入 /zclone [name1] [name2] 将玩家1的人物数据复制给玩家2\n") +
+                                        GetString("输入 /zclone [name] 将该玩家的人物数据复制给自己"));
             return;
         }
 
@@ -613,7 +613,7 @@ public partial class ZHIPM
         
         if (args.Parameters.Count != 1 && args.Parameters.Count != 3)
         {
-            args.Player.SendInfoMessage(GetString("输入 /zmodify help  查看修改玩家数据的指令帮助"));
+            args.Player.SendInfoMessage(GetString("输入 /zmodify help 查看修改玩家数据的指令帮助"));
             return;
         }
 
@@ -624,7 +624,7 @@ public partial class ZHIPM
                 if (args.Parameters[0].Equals("help", StringComparison.OrdinalIgnoreCase))
                 {
                     var temp = config.EnablePointTracking
-                        ? GetString("\n输入 /zmodify [name] point [num]  来修改玩家点数")
+                        ? GetString("\n输入 /zmodify [name] point [num] 来修改玩家点数")
                         : "";
                     args.Player.SendMessage(
                         GetString("输入 /zmodify [name] life [num] 来修改玩家的血量\n") +
@@ -645,7 +645,7 @@ public partial class ZHIPM
                 }
                 else
                 {
-                    args.Player.SendInfoMessage(GetString("输入 /zmodify help  查看修改玩家数据的指令帮助"));
+                    args.Player.SendInfoMessage(GetString("输入 /zmodify help 查看修改玩家数据的指令帮助"));
                 }
 
                 return;
@@ -655,7 +655,7 @@ public partial class ZHIPM
                 //对参数3先判断是不是数据，不是数字结束
                 if (!int.TryParse(args.Parameters[2], out var num))
                 {
-                    args.Player.SendInfoMessage(GetString("格式错误！输入 /zmodify help  查看修改玩家数据的指令帮助"));
+                    args.Player.SendInfoMessage(GetString("格式错误！输入 /zmodify help 查看修改玩家数据的指令帮助"));
                     return;
                 }
                 
@@ -721,7 +721,7 @@ public partial class ZHIPM
                             }
                             else if (num != 0 && num != 1)
                             {
-                                args.Player.SendInfoMessage(GetString("格式错误！输入 /zmodify help  查看修改玩家数据的指令帮助"));
+                                args.Player.SendInfoMessage(GetString("格式错误！输入 /zmodify help 查看修改玩家数据的指令帮助"));
                                 return;
                             }
                             else
@@ -872,7 +872,7 @@ public partial class ZHIPM
                         }
                         else if (num != 0 && num != 1)
                         {
-                            args.Player.SendInfoMessage(GetString("格式错误！输入 /zmodify help  查看修改玩家数据的指令帮助"));
+                            args.Player.SendInfoMessage(GetString("格式错误！输入 /zmodify help 查看修改玩家数据的指令帮助"));
                             return;
                         }
                         else if (args.Parameters[1].Equals("torch", StringComparison.OrdinalIgnoreCase))
@@ -943,7 +943,7 @@ public partial class ZHIPM
     {
         if (args.Parameters.Count != 1)
         {
-            args.Player.SendInfoMessage(GetString("输入 /zresetdb [name]  来清理该玩家的备份数据\n输入 /zresetdb all  来清理所有玩家的备份数据"));
+            args.Player.SendInfoMessage(GetString("输入 /zresetdb [name] 来清理该玩家的备份数据\n输入 /zresetdb all 来清理所有玩家的备份数据"));
             return;
         }
 
@@ -1022,8 +1022,8 @@ public partial class ZHIPM
     {
         if (args.Parameters.Count != 1)
         {
-            args.Player.SendInfoMessage(GetString("输入 /zresetex [name]  来清理该玩家的额外数据\n") +
-                                        GetString("输入 /zresetex all  来清理所有玩家的额外数据"));
+            args.Player.SendInfoMessage(GetString("输入 /zresetex [name] 来清理该玩家的额外数据\n") +
+                                        GetString("输入 /zresetex all 来清理所有玩家的额外数据"));
             return;
         }
 
@@ -1104,7 +1104,7 @@ public partial class ZHIPM
     {
         if (args.Parameters.Count != 1)
         {
-            args.Player.SendInfoMessage(GetString("输入 /zreset <name>  来清理该玩家的人物数据\n输入 /zreset all  来清理所有玩家的人物数据"));
+            args.Player.SendInfoMessage(GetString("输入 /zreset <name> 来清理该玩家的人物数据\n输入 /zreset all 来清理所有玩家的人物数据"));
             return;
         }
 
@@ -1199,7 +1199,7 @@ public partial class ZHIPM
     {
         if (args.Parameters.Count != 0)
         {
-            args.Player.SendInfoMessage(GetString($"输入 /zresetallplayers  来清理所有玩家的所有数据"));
+            args.Player.SendInfoMessage(GetString($"输入 /zresetallplayers 来清理所有玩家的所有数据"));
             return;
         }
 
@@ -1245,7 +1245,7 @@ public partial class ZHIPM
     {
         if (args.Parameters.Count != 1)
         {
-            args.Player.SendInfoMessage(GetString($"输入 /vi <玩家名>  来查看该玩家的库存"));
+            args.Player.SendInfoMessage(GetString($"输入 /vi <玩家名> 来查看该玩家的库存"));
             return;
         }
 
@@ -1496,7 +1496,7 @@ public partial class ZHIPM
     {
         if (args.Parameters.Count != 1)
         {
-            args.Player.SendInfoMessage(GetString($"输入 /vid <玩家名>  来查看该玩家的库存，不进行排列"));
+            args.Player.SendInfoMessage(GetString($"输入 /vid <玩家名> 来查看该玩家的库存，不进行排列"));
             return;
         }
 
@@ -1654,7 +1654,7 @@ public partial class ZHIPM
     {
         if (args.Parameters.Count != 1)
         {
-            args.Player.SendInfoMessage(GetString("输入 /vs <玩家名>  来查看该玩家的状态"));
+            args.Player.SendInfoMessage(GetString("输入 /vs <玩家名> 来查看该玩家的状态"));
             return;
         }
 
@@ -2263,7 +2263,7 @@ public partial class ZHIPM
     {
         if (args.Parameters.Count < 1 || args.Parameters.Count > 2)
         {
-            args.Player.SendInfoMessage(GetString("输入 /zclear useless  来清理世界的掉落物品，非城镇或BossNPC，和无用射弹\n输入 /zclear buff <name>  来清理该玩家的所有Buff\n输入 /zclear buff all  来清理所有玩家所有Buff"));
+            args.Player.SendInfoMessage(GetString("输入 /zclear useless 来清理世界的掉落物品，非城镇或BossNPC，和无用射弹\n输入 /zclear buff <name> 来清理该玩家的所有Buff\n输入 /zclear buff all 来清理所有玩家所有Buff"));
             return;
         }
 
@@ -2311,9 +2311,9 @@ public partial class ZHIPM
         else
         {
             args.Player.SendInfoMessage(
-                GetString("输入 /zclear useless  来清理世界的掉落物品，非城镇或BossNPC，和无用射弹\n") +
-                GetString("输入 /zclear buff <name>  来清理该玩家的所有Buff\n") +
-                GetString("输入 /zclear buff all  来清理所有玩家所有Buff"));
+                GetString("输入 /zclear useless 来清理世界的掉落物品，非城镇或BossNPC，和无用射弹\n") +
+                GetString("输入 /zclear buff <name> 来清理该玩家的所有Buff\n") +
+                GetString("输入 /zclear buff all 来清理所有玩家所有Buff"));
         }
     }
 
@@ -2456,7 +2456,7 @@ public partial class ZHIPM
             {
                 TShock.Players.ForEach(x =>
                 {
-                    if (x is { IsLoggedIn: true } && (x.UUID.Equals(v.uuid) || x.Name.Equals(v.name) || (!string.IsNullOrEmpty(v.IPs) && !string.IsNullOrEmpty(x.IP) && ToIpStrings(v.IPs).Contains(x.IP))))
+                    if (x != null && x is { IsLoggedIn: true } && (x.UUID.Equals(v.uuid) || x.Name.Equals(v.name) || (!string.IsNullOrEmpty(v.IPs) && !string.IsNullOrEmpty(x.IP) && ToIpStrings(v.IPs).Contains(x.IP))))
                     {
                         for (var i = 0; i < 22; i++)
                         {
@@ -2598,7 +2598,7 @@ public partial class ZHIPM
             if (v.Name == TShock.Players[args.Who].Name)
             {
                 ZPExtraDB.WriteExtraDB(v);
-                edPlayers.RemoveAll(x => x.Account == v.Account || x.Name == v.Name);
+                edPlayers.RemoveAll(x => x.Name == v.Name);
                 break;
             }
         }
@@ -2634,7 +2634,7 @@ public partial class ZHIPM
     {
         if (args.Parameters.Count != 1)
         {
-            args.Player.SendInfoMessage(GetString("输入 /zhide kill  来取消 kill + 1 的显示，再次使用启用显示\n输入 /zhide point  来取消 + 1 $ 的显示，再次使用启用显示"));
+            args.Player.SendInfoMessage(GetString("输入 /zhide kill 来取消 kill + 1 的显示，再次使用启用显示\n输入 /zhide point 来取消 + 1 $ 的显示，再次使用启用显示"));
             return;
         }
 
@@ -2676,7 +2676,7 @@ public partial class ZHIPM
         }
         else
         {
-            args.Player.SendInfoMessage(GetString("输入 /zhide kill  来取消 kill + 1 的显示，再次使用启用显示\n输入 /zhide point  来取消 + 1 $ 的显示，再次使用启用显示"));
+            args.Player.SendInfoMessage(GetString("输入 /zhide kill 来取消 kill + 1 的显示，再次使用启用显示\n输入 /zhide point 来取消 + 1 $ 的显示，再次使用启用显示"));
         }
     }
 
@@ -2689,8 +2689,8 @@ public partial class ZHIPM
     {
         if (args.Parameters.Count != 1)
         {
-            args.Player.SendInfoMessage(GetString("输入 /zout <name>  来导出该玩家的人物存档\n") +
-                                        GetString("输入 /zout all  来导出所有人物的存档"));
+            args.Player.SendInfoMessage(GetString("输入 /zout <name> 来导出该玩家的人物存档\n") +
+                                        GetString("输入 /zout all 来导出所有人物的存档"));
             return;
         }
 
@@ -2844,29 +2844,19 @@ public partial class ZHIPM
     {
         if (args.Parameters.Count != 1 && args.Parameters.Count != 2)
         {
-            args.Player.SendInfoMessage(GetString("输入 /zsort help  来查看排序系列指令帮助"));
+            args.Player.SendInfoMessage(GetString("输入 /zsort help 来查看排序系列指令帮助"));
             return;
         }
 
         //帮助指令
         if (args.Parameters[0].Equals("help", StringComparison.OrdinalIgnoreCase))
         {
-            var temp1 = config.EnableOnlineTimeTracking
+            var temp1 = config.EnableOnlineTimeTracking || config.EnablePointTracking
                 ? GetString("\n输入 /zsort point [num] 来查看当前[num]个人物点数排行榜\n") +
                   GetString("输入 /zsort point 来查看人物点数排行榜前十名\n") +
                   GetString("输入 /zsort point all 来查看所有玩家点数排行榜\n")
                 : "";
-            var temp2 = config.EnableNpcKillTracking
-                ? GetString("\n输入 /zsort death [num] 来查看当前[num]个人物死亡次数排行榜\n") +
-                  GetString("输入 /zsort death 来查看人物死亡次数排行榜前十名\n") +
-                  GetString("输入 /zsort death all 来查看所有玩家死亡次数排行榜\n")
-                : "";
-            var temp3 = config.EnablePointTracking
-                ? GetString("\n输入 /zsort point [num] 来查看当前[num]个人物点数排行榜\n") +
-                  GetString("输入 /zsort point 来查看人物点数排行榜前十名\n") +
-                  GetString("输入 /zsort point all 来查看所有玩家点数排行榜\n")
-                : "";
-            var temp4 = config.EnableDeathCountTracking
+            var temp2 = config.EnableNpcKillTracking || config.EnableDeathCountTracking
                 ? GetString("\n输入 /zsort death [num] 来查看当前[num]个人物死亡次数排行榜\n") +
                   GetString("输入 /zsort death 来查看人物死亡次数排行榜前十名\n") +
                   GetString("输入 /zsort death all 来查看所有玩家死亡次数排行榜\n")
@@ -2885,7 +2875,7 @@ public partial class ZHIPM
                 GetString("输入 /zsort fish 来查看人物任务鱼数目排行榜前十名\n") +
                 GetString("输入 /zsort fish [num] 来查看当前[num]个人物任务鱼数目排行榜\n") +
                 GetString("输入 /zsort fish all 来查看所有玩家任务鱼数目排行榜\n") +
-                temp4 + temp2 + temp3 + temp5, TextColor());
+                temp2 + temp5, TextColor());
             return;
         }
         //时间排序
@@ -2959,8 +2949,8 @@ public partial class ZHIPM
                 else
                 {
                     args.Player.SendInfoMessage(
-                        GetString("输入 /zsort time [num]  来查看当前[num]个人物在线时间排行榜\n") +
-                        GetString("输入 /zsort time  来查看人物在线时间排行榜前十名\n输入 /zsort time all  来查看所有玩家在线时常排行榜"));
+                        GetString("输入 /zsort time [num] 来查看当前[num]个人物在线时间排行榜\n") +
+                        GetString("输入 /zsort time 来查看人物在线时间排行榜前十名\n输入 /zsort time all 来查看所有玩家在线时常排行榜"));
                 }
             }
         }
@@ -3040,9 +3030,9 @@ public partial class ZHIPM
                 else
                 {
                     args.Player.SendInfoMessage(
-                        GetString("输入 /zsort coin  来查看人物硬币数目排行榜前十名\n") +
-                        GetString("输入 /zsort coin [num]  来查看当前[num]个人物硬币数目排行榜\n") +
-                        GetString("输入 /zsort coin all  来查看所有玩家硬币数目排行榜"));
+                        GetString("输入 /zsort coin 来查看人物硬币数目排行榜前十名\n") +
+                        GetString("输入 /zsort coin [num] 来查看当前[num]个人物硬币数目排行榜\n") +
+                        GetString("输入 /zsort coin all 来查看所有玩家硬币数目排行榜"));
                 }
             }
         }
@@ -3121,9 +3111,9 @@ public partial class ZHIPM
                 else
                 {
                     args.Player.SendInfoMessage(
-                        GetString("输入 /zsort fish  来查看人物任务鱼数目排行榜前十名\n") +
-                        GetString("输入 /zsort fish [num]  来查看当前[num]个人物任务鱼数目排行榜\n") +
-                        GetString("输入 /zsort fish all  来查看所有玩家任务鱼数目排行榜"));
+                        GetString("输入 /zsort fish 来查看人物任务鱼数目排行榜前十名\n") +
+                        GetString("输入 /zsort fish [num] 来查看当前[num]个人物任务鱼数目排行榜\n") +
+                        GetString("输入 /zsort fish all 来查看所有玩家任务鱼数目排行榜"));
                 }
             }
         }
@@ -3197,9 +3187,9 @@ public partial class ZHIPM
                 else
                 {
                     args.Player.SendInfoMessage(
-                        GetString("输入 /zsort kill [num]  来查看当前[num]个人物击杀生物数排行榜\n") +
-                        GetString("输入 /zsort kill  来查看人物击杀生物数排行榜前十名\n") +
-                        GetString("输入 /zsort kill all  来查看所有玩家击杀生物数排行榜"));
+                        GetString("输入 /zsort kill [num] 来查看当前[num]个人物击杀生物数排行榜\n") +
+                        GetString("输入 /zsort kill 来查看人物击杀生物数排行榜前十名\n") +
+                        GetString("输入 /zsort kill all 来查看所有玩家击杀生物数排行榜"));
                 }
             }
         }
@@ -3276,9 +3266,9 @@ public partial class ZHIPM
                 else
                 {
                     args.Player.SendInfoMessage(
-                        GetString("输入 /zsort boss [num]  来查看当前[num]个人物击杀Boss总数排行榜\n") +
-                        GetString("输入 /zsort boss  来查看人物击杀Boss总数排行榜前十名\n") +
-                        GetString("输入 /zsort boss all  来查看所有玩家击杀Boss总数排行榜"));
+                        GetString("输入 /zsort boss [num] 来查看当前[num]个人物击杀Boss总数排行榜\n") +
+                        GetString("输入 /zsort boss 来查看人物击杀Boss总数排行榜前十名\n") +
+                        GetString("输入 /zsort boss all 来查看所有玩家击杀Boss总数排行榜"));
                 }
             }
         }
@@ -3355,9 +3345,9 @@ public partial class ZHIPM
                 else
                 {
                     args.Player.SendInfoMessage(
-                        GetString("输入 /zsort rarenpc [num]  来查看当前[num]个人物击杀罕见生物总数排行榜\n") +
-                        GetString("输入 /zsort rarenpc  来查看人物击杀罕见生物总数排行榜前十名\n") +
-                        GetString("输入 /zsort rarenpc all  来查看所有玩家击杀罕见生物总数排行榜"));
+                        GetString("输入 /zsort rarenpc [num] 来查看当前[num]个人物击杀罕见生物总数排行榜\n") +
+                        GetString("输入 /zsort rarenpc 来查看人物击杀罕见生物总数排行榜前十名\n") +
+                        GetString("输入 /zsort rarenpc all 来查看所有玩家击杀罕见生物总数排行榜"));
                 }
             }
         }
@@ -3433,9 +3423,9 @@ public partial class ZHIPM
                 else
                 {
                     args.Player.SendInfoMessage(
-                        GetString("输入 /zsort point [num]  来查看当前[num]个人物点数排行榜\n") +
-                        GetString("输入 /zsort point  来查看人物点数排行榜前十名\n") +
-                        GetString("输入 /zsort point all  来查看所有玩家点数排行榜"));
+                        GetString("输入 /zsort point [num] 来查看当前[num]个人物点数排行榜\n") +
+                        GetString("输入 /zsort point 来查看人物点数排行榜前十名\n") +
+                        GetString("输入 /zsort point all 来查看所有玩家点数排行榜"));
                 }
             }
         }
@@ -3511,9 +3501,9 @@ public partial class ZHIPM
                 else
                 {
                     args.Player.SendInfoMessage(
-                        GetString("输入 /zsort death [num]  来查看当前[num]个人物死亡次数排行榜\n") +
-                        GetString("输入 /zsort death  来查看人物死亡次数排行榜前十名\n") +
-                        GetString("输入 /zsort death all  来查看所有玩家死亡次数排行榜"));
+                        GetString("输入 /zsort death [num] 来查看当前[num]个人物死亡次数排行榜\n") +
+                        GetString("输入 /zsort death 来查看人物死亡次数排行榜前十名\n") +
+                        GetString("输入 /zsort death all 来查看所有玩家死亡次数排行榜"));
                 }
             }
         }
@@ -3625,15 +3615,15 @@ public partial class ZHIPM
                 else
                 {
                     args.Player.SendInfoMessage(
-                        GetString("输入 /zsort clumsy  来查看人物手残排行榜前十名\n") +
-                        GetString("输入 /zsort clumsy [num]  来查看当前[num]个人物手残排行榜\n") +
-                        GetString("输入 /zsort clumsy all  来查看所有玩家手残排行榜"));
+                        GetString("输入 /zsort clumsy 来查看人物手残排行榜前十名\n") +
+                        GetString("输入 /zsort clumsy [num] 来查看当前[num]个人物手残排行榜\n") +
+                        GetString("输入 /zsort clumsy all 来查看所有玩家手残排行榜"));
                 }
             }
         }
         else
         {
-            args.Player.SendInfoMessage(GetString("输入 /zsort help  来查看排序系列指令帮助"));
+            args.Player.SendInfoMessage(GetString("输入 /zsort help 来查看排序系列指令帮助"));
         }
     }
 
@@ -3647,9 +3637,9 @@ public partial class ZHIPM
         if (args.Parameters.Count < 2)
         {
             args.Player.SendInfoMessage(
-                GetString("输入 /zban add <name> [reason] 来封禁无论是否在线的玩家，reason 可不填\n") +
-                GetString("输入 /zban add uuid <uuid> [reason] 来封禁uuid\n") +
-                GetString("输入 /zban add ip <ip> [reason] 来封禁ip\n"));
+                GetString("输入 /zban add <name> [duration] [reason] 来封禁无论是否在线的玩家，reason 可不填\n") +
+                GetString("输入 /zban add uuid <uuid> [duration] [reason] 来封禁uuid\n") +
+                GetString("输入 /zban add ip <ip> [duration] [reason] 来封禁ip\n"));
             return;
         }
 
@@ -3662,8 +3652,8 @@ public partial class ZHIPM
                     args.Player.SendInfoMessage(GetString("参数过少"));
                     return;
                 }
-
-                var reason = args.Parameters.Count == 4 ? args.Parameters[3] : GetString("你已被管理员封禁！");
+                var duration = args.Parameters.Count >= 4 ? args.Parameters[3] : "0h";
+                var reason = args.Parameters.Count == 5 ? args.Parameters[4] : GetString("你已被管理员封禁！");
                 TSPlayer? suspect = null;
                 foreach (var i in TShock.Players)
                 {
@@ -3674,15 +3664,20 @@ public partial class ZHIPM
                     }
                 }
 
-                if (suspect != null && suspect.Ban(reason, args.Player.Name))
+                if (suspect != null && suspect.SuperBan(reason, duration, args.Player.Name))
                 {
-                    args.Player.SendMessage(GetString($"用户 {suspect.Name} 已被 {args.Player.Name} 封禁"), broadcastColor);
+                    args.Player.SendMessage(GetString($"用户 {suspect.Name} 已被 {args.Player.Name} 封禁 {duration}"), broadcastColor);
                     TShock.Log.Info(GetString($"用户 {suspect.Name} 已被 {args.Player.Name} 封禁"));
                 }
                 else
                 {
-                    TShock.Bans.InsertBan("uuid:" + args.Parameters[2], reason, args.Player.Name, DateTime.UtcNow, DateTime.MaxValue);
-                    TSPlayer.All.SendMessage(GetString($"uuid: {args.Parameters[2]} 已被 {args.Player.Name} 封禁"), broadcastColor);
+                    var expiration = DateTime.MaxValue;
+                    if (TShock.Utils.TryParseTime(duration, out ulong seconds))
+                    {
+                        expiration = seconds > 0 ? DateTime.UtcNow.AddSeconds(seconds) : DateTime.MaxValue;
+                    }
+                    TShock.Bans.InsertBan("uuid:" + args.Parameters[2], reason, args.Player.Name, DateTime.UtcNow, expiration);
+                    TSPlayer.All.SendMessage(GetString($"uuid: {args.Parameters[2]} 已被 {args.Player.Name} 封禁 {duration}"), broadcastColor);
                     TShock.Log.Info(GetString($"uuid: {args.Parameters[2]} 已被 {args.Player.Name} 封禁"));
                 }
             }
@@ -3694,7 +3689,8 @@ public partial class ZHIPM
                     return;
                 }
 
-                var reason = args.Parameters.Count == 4 ? args.Parameters[3] : GetString("你已被管理员封禁！");
+                var duration = args.Parameters.Count >= 4 ? args.Parameters[3] : "0h";
+                var reason = args.Parameters.Count == 5 ? args.Parameters[4] : GetString("你已被管理员封禁！");
                 TSPlayer? suspect = null;
                 foreach (var v in TShock.Players)
                 {
@@ -3705,14 +3701,19 @@ public partial class ZHIPM
                     }
                 }
 
-                if (suspect != null && suspect.Ban(reason, args.Player.Name))
+                if (suspect != null && suspect.SuperBan(reason, duration, args.Player.Name))
                 {
                     args.Player.SendMessage(GetString($"用户 {suspect.Name} 已被 {args.Player.Name} 封禁"), broadcastColor);
                     TShock.Log.Info(GetString($"用户 {suspect.Name} 已被 {args.Player.Name} 封禁"));
                 }
                 else
                 {
-                    TShock.Bans.InsertBan("ip:" + args.Parameters[2], reason, args.Player.Name, DateTime.UtcNow, DateTime.MaxValue);
+                    var expiration = DateTime.MaxValue;
+                    if (TShock.Utils.TryParseTime(duration, out ulong seconds))
+                    {
+                        expiration = seconds > 0 ? DateTime.UtcNow.AddSeconds(seconds) : DateTime.MaxValue;
+                    }
+                    TShock.Bans.InsertBan("ip:" + args.Parameters[2], reason, args.Player.Name, DateTime.UtcNow, expiration);
                     TSPlayer.All.SendMessage(GetString($"ip: {args.Parameters[2]} 已被 {args.Player.Name} 封禁"), broadcastColor);
                     TShock.Log.Info(GetString($"ip: {args.Parameters[2]} 已被 {args.Player.Name} 封禁"));
                 }
@@ -3721,12 +3722,13 @@ public partial class ZHIPM
             {
                 var list = this.BestFindPlayerByNameOrIndex(args.Parameters[1]);
                 //封禁原因，可不填
-                var reason = args.Parameters.Count == 3 ? args.Parameters[2] : GetString("你已被管理员封禁！");
+                var duration = args.Parameters.Count >= 3 ? args.Parameters[2] : "0d";
+                var reason = args.Parameters.Count == 4 ? args.Parameters[2] : GetString("你已被管理员封禁！");
                 if (list.Count == 1)
                 {
-                    if (list[0].Ban(reason, args.Player.Name))
+                    if (list[0].SuperBan(reason, duration, args.Player.Name))
                     {
-                        args.Player.SendMessage(GetString($"用户 {list[0].Name} 已被 {args.Player.Name} 封禁"), broadcastColor);
+                        args.Player.SendMessage(GetString($"用户 {list[0].Name} 已被 {args.Player.Name} 封禁 {duration}"), broadcastColor);
                         TShock.Log.Info(GetString($"用户 {list[0].Name} 已被 {args.Player.Name} 封禁"));
                     }
                     else
@@ -3764,15 +3766,19 @@ public partial class ZHIPM
                             return;
                         }
                     }
-
+                    var expiration = DateTime.MaxValue;
+                    if (TShock.Utils.TryParseTime(duration, out ulong seconds))
+                    {
+                        expiration = seconds > 0 ? DateTime.UtcNow.AddSeconds(seconds) : DateTime.MaxValue;
+                    }
                     if (!string.IsNullOrWhiteSpace(user.Name))
                     {
-                        TShock.Bans.InsertBan("acc:" + user.Name, reason, args.Player.Name, DateTime.UtcNow, DateTime.MaxValue);
+                        TShock.Bans.InsertBan("acc:" + user.Name, reason, args.Player.Name, DateTime.UtcNow, expiration);
                     }
 
                     if (!string.IsNullOrWhiteSpace(user.UUID))
                     {
-                        TShock.Bans.InsertBan("uuid:" + user.UUID, reason, args.Player.Name, DateTime.UtcNow, DateTime.MaxValue);
+                        TShock.Bans.InsertBan("uuid:" + user.UUID, reason, args.Player.Name, DateTime.UtcNow, expiration);
                     }
 
                     if (!string.IsNullOrWhiteSpace(user.KnownIps))
@@ -3782,18 +3788,18 @@ public partial class ZHIPM
                         {
                             if (!string.IsNullOrWhiteSpace(str))
                             {
-                                TShock.Bans.InsertBan("ip:" + str, reason, args.Player.Name, DateTime.UtcNow, DateTime.MaxValue);
+                                TShock.Bans.InsertBan("ip:" + str, reason, args.Player.Name, DateTime.UtcNow, expiration);
                             }
                         }
                     }
 
                     if (!args.Player.RealPlayer)
                     {
-                        args.Player.SendMessage(GetString($"用户 {user.Name} 已被 {args.Player.Name} 封禁"), broadcastColor);
+                        args.Player.SendMessage(GetString($"用户 {user.Name} 已被 {args.Player.Name} 封禁 {expiration}"), broadcastColor);
                     }
 
-                    TSPlayer.All.SendMessage(GetString($"用户 {user.Name} 已被 {args.Player.Name} 封禁"), broadcastColor);
-                    TShock.Log.Info(GetString($"用户 {user.Name} 已被 {args.Player.Name} 封禁"));
+                    TSPlayer.All.SendMessage(GetString($"用户 {user.Name} 已被 {args.Player.Name} 封禁 {expiration}"), broadcastColor);
+                    TShock.Log.Info(GetString($"用户 {user.Name} 已被 {args.Player.Name} 封禁 {expiration}"));
                 }
             }
         }
@@ -3816,7 +3822,7 @@ public partial class ZHIPM
     {
         if (args.Parameters.Count != 1)
         {
-            args.Player.SendInfoMessage(GetString("输入 /zfre [name]  来冻结该玩家"));
+            args.Player.SendInfoMessage(GetString("输入 /zfre [name] 来冻结该玩家"));
             return;
         }
 
@@ -3892,7 +3898,7 @@ public partial class ZHIPM
     {
         if (args.Parameters.Count != 1)
         {
-            args.Player.SendInfoMessage(GetString("输入 /zunfre [name]  来解冻该玩家\n输入 /zunfre all  来解冻所有玩家"));
+            args.Player.SendInfoMessage(GetString("输入 /zunfre [name] 来解冻该玩家\n输入 /zunfre all 来解冻所有玩家"));
             return;
         }
 
@@ -3985,18 +3991,18 @@ public partial class ZHIPM
         if (strike != null && strike.name != string.Empty)
         {
             //如果击中过，寻找击中他的玩家是否被记录
-            if (strike.playerAndDamage.ContainsKey(players[0].Account.ID))
+            if (strike.playerAndDamage.ContainsKey(players[0].Name))
             {
                 //已被记录，那么伤害记录加数值
                 if (args.Damage <= TShock.Config.Settings.MaxDamage && args.Damage <= TShock.Config.Settings.MaxProjDamage) //不正常的伤害应舍去
                 {
-                    strike.playerAndDamage[players[0].Account.ID] += args.Damage;
+                    strike.playerAndDamage[players[0].Name] += args.Damage;
                     strike.AllDamage += args.Damage;
                 }
             }
             else //否则，创建新的 player->damage
             {
-                strike.playerAndDamage.Add(players[0].Account.ID, args.Damage);
+                strike.playerAndDamage.Add(players[0].Name, args.Damage);
                 strike.AllDamage += args.Damage;
             }
         }
@@ -4082,7 +4088,7 @@ public partial class ZHIPM
                 13 or 14 or 15 or 325 or 327 or 564 or 565 or 576 or 577 or 551 or 344 or 345 or 346 or 517 or 422 or 493 or 507 or 68 => true,
                 _ => args.Npc.boss
             };
-            snpc.playerAndDamage.Add(players[0].Account.ID, args.Damage);
+            snpc.playerAndDamage.Add(players[0].Name, args.Damage);
             snpc.AllDamage += args.Damage;
             strikeNPC.Add(snpc);
         }
@@ -4136,7 +4142,7 @@ public partial class ZHIPM
 
             foreach (var x in edPlayers)
             {
-                if (this.Destroyer.TryGetValue(x.Account, out var value))
+                if (this.Destroyer.TryGetValue(x.Name, out var value))
                 {
                     x.killNPCnum++;
 
@@ -4214,7 +4220,7 @@ public partial class ZHIPM
 
             foreach (var x in edPlayers)
             {
-                if (this.FleshWall.TryGetValue(x.Account, out var value))
+                if (this.FleshWall.TryGetValue(x.Name, out var value))
                 {
                     x.killNPCnum++;
 
@@ -4305,7 +4311,7 @@ public partial class ZHIPM
 
                             foreach (var x in edPlayers)
                             {
-                                if (this.Eaterworld.TryGetValue(x.Account, out var value))
+                                if (this.Eaterworld.TryGetValue(x.Name, out var value))
                                 {
                                     x.killNPCnum++;
 
@@ -4407,7 +4413,7 @@ public partial class ZHIPM
 
                             foreach (var x in edPlayers)
                             {
-                                if (airship.playerAndDamage.TryGetValue(x.Account, out var value))
+                                if (airship.playerAndDamage.TryGetValue(x.Name, out var value))
                                 {
                                     x.killNPCnum += 2;
 
@@ -4480,7 +4486,7 @@ public partial class ZHIPM
 
                         foreach (var x in edPlayers)
                         {
-                            if (strikeNPC[i].playerAndDamage.TryGetValue(x.Account, out var value))
+                            if (strikeNPC[i].playerAndDamage.TryGetValue(x.Name, out var value))
                             {
                                 x.killNPCnum++;
 
@@ -4574,7 +4580,7 @@ public partial class ZHIPM
                         {
                             foreach (var x in edPlayers)
                             {
-                                if (strikeNPC[i].playerAndDamage.TryGetValue(x.Account, out var value))
+                                if (strikeNPC[i].playerAndDamage.TryGetValue(x.Name, out var value))
                                 {
                                     x.killNPCnum += 1;
 
@@ -4669,7 +4675,7 @@ public partial class ZHIPM
                         {
                             foreach (var x in edPlayers)
                             {
-                                if (strikeNPC[i].playerAndDamage.TryGetValue(x.Account, out var value))
+                                if (strikeNPC[i].playerAndDamage.TryGetValue(x.Name, out var value))
                                 {
                                     x.killNPCnum += 1;
 
@@ -4762,7 +4768,7 @@ public partial class ZHIPM
                         {
                             foreach (var x in edPlayers)
                             {
-                                if (strikeNPC[i].playerAndDamage.TryGetValue(x.Account, out var value))
+                                if (strikeNPC[i].playerAndDamage.TryGetValue(x.Name, out var value))
                                 {
                                     x.killNPCnum += 1;
 
@@ -4814,7 +4820,7 @@ public partial class ZHIPM
                     {
                         foreach (var x in edPlayers)
                         {
-                            if (strikeNPC[i].playerAndDamage.TryGetValue(x.Account, out var value))
+                            if (strikeNPC[i].playerAndDamage.TryGetValue(x.Name, out var value))
                             {
                                 x.killNPCnum++;
 
@@ -4959,7 +4965,7 @@ public partial class ZHIPM
     {
         if (args.Parameters.Count > 0)
         {
-            args.Player.SendInfoMessage(GetString("输入 /zbpos  来返回上次死亡地点"));
+            args.Player.SendInfoMessage(GetString("输入 /zbpos 来返回上次死亡地点"));
             return;
         }
 
@@ -5014,7 +5020,7 @@ public partial class ZHIPM
     {
         if (args.Parameters.Count < 2)
         {
-            args.Player.SendInfoMessage("输入 /zfind [id]  来查找当前哪些玩家拥有此物品");
+            args.Player.SendInfoMessage("输入 /zfind [id] 来查找当前哪些玩家拥有此物品");
             return;
         }
 

@@ -1,86 +1,84 @@
 # Online Gift Package 在线礼包
 
-- Author: Star Night Flower, Yuxue
-- Source: [github](https://gitee.com/star-night-flower/tshock-gift)
-- This is a TShock server plugin primarily used to distribute random online rewards to players on the server
-- After adding items in the [OnlineGiftPackage.json] file, use /Reload in-game to automatically calculate the total probability
+- 作者: 星夜神花、羽学
+- 出处: [github](https://gitee.com/star-night-flower/tshock-gift)
+- 这是一个Tshock服务器插件主要用于对服务器内的在线玩家进行发放随机的在线奖励
+- 在【在线礼包.json】文件中添加完物品，游戏发送/Reload可自动计算获取总概率
 
-## Commands
+## 指令
 
-| Syntax      |        Permission         |      Description       |
-|------------|:----------------------:|:-------------------:|
-| /onlinegift | OnlineGiftPackage | Display probability table of all items in the gift package |
-| /reload    |         None         |    Automatically calculate total probability    |
+| 语法      |        权限         |      说明       |
+|---------|:-----------------:|:-------------:|
+| /在线礼包   | OnlineGiftPackage | 显示礼包内所有物品的概率表 |
+| /reload |         无         |    自动计算总概率    |
 
-## Configuration
-> Configuration file location: tshock/在线礼包.json
+## 配置
+> 配置文件位置：tshock/在线礼包.json
 ```json5
 {
-  "Enabled": true,
-  "TotalProbability(AutoUpdate)": 60,
-  "DistributionInterval/Seconds": 1800,
-  "SkipHealthThreshold": 500,
-  "LogGiftDistribution": false,
-  "GiftList": [
+  "启用": true,
+  "总概率(自动更新)": 60,
+  "发放间隔/秒": 1800,
+  "跳过生命上限": 500,
+  "每次发放礼包记录后台": false,
+  "礼包列表": [
     {
-      "ItemName": "Platinum Coin",
-      "ItemID": 74,
-      "Probability": 1,
-      "ItemQuantity": [
+      "物品名称": "铂金币",
+      "物品ID": 74,
+      "所占概率": 1,
+      "物品数量": [
         2,
         5
       ]
     }
   ],
-    "TriggerSequence": {
-    "1": "[c/55CDFF:Server Owner] sent you 1 gift package"
+    "触发序列": {
+    "1": "[c/55CDFF:服主]送了你1个礼包"
   }
 }
 ```
 
-## Update Log
+## 更新日志
 
-```
-- 1.0.1.2
-- Improved unload function
+### v1.0.1.2
+- 完善卸载函数
 
-- 1.1.1
-- 1. Improved synchronization of "Total Probability" with Reload
-- 2. Optimized command display formatting
-- 3. Added permission name to command
-- 4. Removed "Log non-qualified players" from configuration file
+### v1.1.1
+- 完善了对“总概率”的Reload重载同步
+- 优化了命令的显示排版
+- 给命令加了个权限名
+- 移除了配置文件里的“将未符合条件者记录后台”
 -  
-- 1.1.0
-- 1. Fixed issue where configuration file was overwritten by original config when using /reload or server restart
-- 2. Added total probability calculation display to command: /onlinegift
-- 3. Using /reload on configuration file will calculate and update "Total Probability" value
-- 4. Added "Skip Health Threshold" to configuration to prevent high HP players from receiving online gifts
-- 5. Added option to log each gift distribution
-- 6. "Log non-qualified players" was for debugging purposes and is not recommended for use
-- 7. Players are notified of next gift distribution time after receiving a gift
--  
-- 1.0.9
-- 1. Fixed issue with untimely item distribution
-- 2. Removed online time broadcast method
-- 3. Added numerous preset item configurations to configuration file
-- 4. Fixed issue where /onlinegift command didn't display probabilities
-- 5. Changed distribution method to reset to 0+1 after each distribution
-- 6. Fixed automatic serialization during configuration initialization
-- 7. Added new method for calculating total probability
--  
-- 1.0.8  
-- 1. Added missing variable names to configuration file  
-- 2. Added total probability option  
-- 3. Players can customize broadcast interval time  
-- 4. Further optimized timer
-- 5. Adapted for .NET 6.0  
--  
-- 1.0.7  
-- 1. Optimized timer  
-- 2. Renamed config file to [OnlineGiftPackage.json] and localized configuration items
-```
+### v1.1.0
+- 修复了使用/reload或重启服务器时，配置文件被原配置覆盖，无法正常读取修改过的变量问题。
+- 把计算总概率的显示加入到了指令里：/在线礼包
+- 删除配置文件使用/reload可得到个计算过的“总概率”值在配置文件里
+- 配置文件加入了“跳过生命上限”的检测标准，可以决定高血量玩家无法获取在线礼包。
+- 加入了每次发放礼包是否记录后台
+- “将未符合条件者记录后台”是羽学调试时观察用的，不建议开，后期更新会移除。
+- 赠送礼包后会提醒玩家下次发放时间
+ 
+### v1.0.9
+- 修复了不按时送物品的问题，  
+- 移除了广播在线时长的方法，  
+- 配置文件加入了大量预设物品方案，  
+- 修复了/在线礼包指令不显示概率的问题，  
+- 不再根据序列数量来发放物品而是发过一次自动重置为0+1从第一个序列开始发，  
+- 解决了初始化配置文件时自动序列化问题  
+- 加了个计算总概率的新方法。  
+ 
+### v1.0.8  
+- 补充了配置文件缺失的变量名称  
+- 增加了总概率选项  
+- 玩家可自定义广播间隔时间，方便与触发时间同步  
+- 再次尝试优化定时器
+- 适配了.NET 6.0
 
-## Feedback
-- Priority: Create an issue -> Shared plugin repository: https://github.com/UnrealMultiple/TShockPlugin
-- Secondary: TShock official group: 816771079
-- Less likely to be seen but still possible: Domestic communities trhub.cn, bbstr.net, tr.monika.love
+### v1.0.7  
+- 优化了定时器  
+- config文件改名为【在线礼包.json】，并对其修改项合理汉化
+
+## 反馈
+- 优先发issued -> 共同维护的插件库：https://github.com/UnrealMultiple/TShockPlugin
+- 次优先：TShock官方群：816771079
+- 大概率看不到但是也可以：国内社区trhub.cn ，bbstr.net , tr.monika.love

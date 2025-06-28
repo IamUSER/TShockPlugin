@@ -1,7 +1,7 @@
 [
   {
     "Name": "CaiPacketDebug",
-    "Version": "2025.1.25.2",
+    "Version": "2025.5.20.1",
     "Author": "Cai",
     "Description": {
       "en-US": "Plugin for debugging data packets~",
@@ -20,6 +20,26 @@
       "LazyAPI",
       "TrProtocol"
     ],
+    "HotReload": true
+  },
+  {
+    "Name": "TransferPatch",
+    "Version": "1.0.0.2",
+    "Author": "少司命",
+    "Description": {
+      "en-US": "Translate any plugin",
+      "de-DE": "翻译任意插件",
+      "it-IT": "翻译任意插件",
+      "fr-FR": "翻译任意插件",
+      "es-ES": "翻译任意插件",
+      "ru-RU": "翻译任意插件",
+      "zh-CN": "翻译任意插件",
+      "pt-BR": "翻译任意插件",
+      "pl-PL": "翻译任意插件"
+    },
+    "AssemblyName": "TransferPatch",
+    "Path": "TransferPatch.dll",
+    "Dependencies": [],
     "HotReload": true
   },
   {
@@ -44,7 +64,7 @@
   },
   {
     "Name": "Crossplay",
-    "Version": "2.2",
+    "Version": "2.3",
     "Author": "Moneylover3246",
     "Description": {
       "en-US": "Enables crossplay for terraria",
@@ -63,8 +83,30 @@
     "HotReload": true
   },
   {
+    "Name": "复制建筑",
+    "Version": "1.0.1.0",
+    "Author": "少司命 羽学",
+    "Description": {
+      "en-US": "使用指令复制区域建筑,支持保存建筑文件、跨地图粘贴",
+      "de-DE": "使用指令复制区域建筑,支持保存建筑文件、跨地图粘贴",
+      "it-IT": "使用指令复制区域建筑,支持保存建筑文件、跨地图粘贴",
+      "fr-FR": "使用指令复制区域建筑,支持保存建筑文件、跨地图粘贴",
+      "es-ES": "使用指令复制区域建筑,支持保存建筑文件、跨地图粘贴",
+      "ru-RU": "使用指令复制区域建筑,支持保存建筑文件、跨地图粘贴",
+      "zh-CN": "使用指令复制区域建筑,支持保存建筑文件、跨地图粘贴",
+      "pt-BR": "使用指令复制区域建筑,支持保存建筑文件、跨地图粘贴",
+      "pl-PL": "使用指令复制区域建筑,支持保存建筑文件、跨地图粘贴"
+    },
+    "AssemblyName": "CreateSpawn",
+    "Path": "CreateSpawn.dll",
+    "Dependencies": [
+      "LazyAPI"
+    ],
+    "HotReload": true
+  },
+  {
     "Name": "AdditionalPylons",
-    "Version": "1.0.7",
+    "Version": "1.0.8",
     "Author": "Stealownz,肝帝熙恩优化1449",
     "Description": {
       "en-US": "Customize the number of pylon that can be placed, at least one, and all of them ignore the environment",
@@ -72,7 +114,7 @@
       "it-IT": "自定义晶塔可放置的数量，至少为一个，且所有晶塔都无视环境",
       "fr-FR": "自定义晶塔可放置的数量，至少为一个，且所有晶塔都无视环境",
       "es-ES": "自定义晶塔可放置的数量，至少为一个，且所有晶塔都无视环境",
-      "ru-RU": "自定义晶塔可放置的数量，至少为一个，且所有晶塔都无视环境",
+      "ru-RU": "Позволяет установить макс. кол-во возможных пилонов каждого типа, игнорирующие место нахождения (биома)",
       "zh-CN": "自定义晶塔可放置的数量，至少为一个，且所有晶塔都无视环境",
       "pt-BR": "自定义晶塔可放置的数量，至少为一个，且所有晶塔都无视环境",
       "pl-PL": "自定义晶塔可放置的数量，至少为一个，且所有晶塔都无视环境"
@@ -86,7 +128,7 @@
   },
   {
     "Name": "AIChatPlugin",
-    "Version": "2025.3.8",
+    "Version": "2025.5.18",
     "Author": "JTL",
     "Description": {
       "en-US": "A plugin provides Ai chat",
@@ -106,7 +148,7 @@
   },
   {
     "Name": "AnnouncementBoxPlus",
-    "Version": "1.0.5",
+    "Version": "1.0.6",
     "Author": "Cai",
     "Description": {
       "en-US": "Optimize announcement box",
@@ -128,7 +170,7 @@
   },
   {
     "Name": "AutoAirItem",
-    "Version": "1.2.7",
+    "Version": "1.2.8",
     "Author": "羽学",
     "Description": {
       "en-US": "Automatic trash can helps players clean up their own trash",
@@ -150,7 +192,7 @@
   },
   {
     "Name": "AutoBroadcast",
-    "Version": "1.1.2",
+    "Version": "1.1.3",
     "Author": "Scavenger,Cai",
     "Description": {
       "en-US": "Automatic broadcast plugin",
@@ -171,8 +213,28 @@
     "HotReload": true
   },
   {
+    "Name": "AutoClassificationQuickStack",
+    "Version": "1.1",
+    "Author": "xuyuwtu",
+    "Description": {
+      "en-US": "快速堆叠时根据配置放入箱子",
+      "de-DE": "快速堆叠时根据配置放入箱子",
+      "it-IT": "快速堆叠时根据配置放入箱子",
+      "fr-FR": "快速堆叠时根据配置放入箱子",
+      "es-ES": "快速堆叠时根据配置放入箱子",
+      "ru-RU": "快速堆叠时根据配置放入箱子",
+      "zh-CN": "快速堆叠时根据配置放入箱子",
+      "pt-BR": "快速堆叠时根据配置放入箱子",
+      "pl-PL": "快速堆叠时根据配置放入箱子"
+    },
+    "AssemblyName": "AutoClassificationQuickStack",
+    "Path": "AutoClassificationQuickStack.dll",
+    "Dependencies": [],
+    "HotReload": true
+  },
+  {
     "Name": "AutoClear",
-    "Version": "1.0.8",
+    "Version": "1.0.9",
     "Author": "大豆子[Mute适配1447]，肝帝熙恩更新",
     "Description": {
       "en-US": "Smart sweeper",
@@ -194,7 +256,7 @@
   },
   {
     "Name": "AutoFish",
-    "Version": "1.3.7",
+    "Version": "1.3.8",
     "Author": "羽学 少司命",
     "Description": {
       "en-US": "Auto Fishing",
@@ -216,7 +278,7 @@
   },
   {
     "Name": "AutoPluginManager",
-    "Version": "2.0.3.6",
+    "Version": "2.1.0.0",
     "Author": "少司命,Cai,LaoSparrow",
     "Description": {
       "en-US": "Automatically update your plugins!",
@@ -236,7 +298,7 @@
   },
   {
     "Name": "AutoReset",
-    "Version": "2024.12.18.3",
+    "Version": "2025.6.23.0",
     "Author": "cc04 & Leader & 棱镜 & Cai & 肝帝熙恩",
     "Description": {
       "en-US": "Full automatic plugin reset",
@@ -258,7 +320,7 @@
   },
   {
     "Name": "AutoStoreItems",
-    "Version": "1.3.5",
+    "Version": "1.3.6",
     "Author": "羽学 cmgy雱",
     "Description": {
       "en-US": "Automatically store specified items into storage space based on configured item IDs.",
@@ -280,7 +342,7 @@
   },
   {
     "Name": "AutoTeam",
-    "Version": "2.4.8",
+    "Version": "2.4.9",
     "Author": "十七改，肝帝熙恩改",
     "Description": {
       "en-US": "Automatically assign a group of players to a specific team",
@@ -302,7 +364,7 @@
   },
   {
     "Name": "Back",
-    "Version": "1.0.0.9",
+    "Version": "1.0.0.10",
     "Author": "Megghy,熙恩改",
     "Description": {
       "en-US": "Allows the player to teleport back to the point of death",
@@ -324,7 +386,7 @@
   },
   {
     "Name": "BagPing",
-    "Version": "1.0.5",
+    "Version": "2025.6.1",
     "Author": "Cai",
     "Description": {
       "en-US": "Mark dropped treasure bags on the minimap",
@@ -344,7 +406,7 @@
   },
   {
     "Name": "BanNpc",
-    "Version": "1.0.0.6",
+    "Version": "1.0.0.7",
     "Author": "Patrikk,GK 改良",
     "Description": {
       "en-US": "Prohibit the appearance of specified monsters",
@@ -366,7 +428,7 @@
   },
   {
     "Name": "BedSet",
-    "Version": "1.0.0.6",
+    "Version": "1.0.0.7",
     "Author": "cmgy",
     "Description": {
       "en-US": "",
@@ -388,7 +450,7 @@
   },
   {
     "Name": "BetterWhitelist",
-    "Version": "2.6.4",
+    "Version": "2.6.5",
     "Author": "豆沙，肝帝熙恩、Cai修改",
     "Description": {
       "en-US": "Whitelist players by checking the name of the player",
@@ -410,7 +472,7 @@
   },
   {
     "Name": "BridgeBuilder",
-    "Version": "1.1.3",
+    "Version": "1.1.4",
     "Author": "Soofa，肝帝熙恩汉化1449",
     "Description": {
       "en-US": "Build a bridge!",
@@ -432,7 +494,7 @@
   },
   {
     "Name": "BuildMaster",
-    "Version": "1.0.7",
+    "Version": "1.0.8",
     "Author": "豆沙 羽学，肝帝熙恩适配",
     "Description": {
       "en-US": "A minigame that is named BuildMaster",
@@ -454,7 +516,7 @@
   },
   {
     "Name": "CaiBotLitePlugin",
-    "Version": "2025.3.29.1",
+    "Version": "2025.6.4.1",
     "Author": "Cai,羽学,西江",
     "Description": {
       "en-US": "CaiBot官方机器人的适配插件",
@@ -474,7 +536,7 @@
   },
   {
     "Name": "CaiBotPlugin",
-    "Version": "2025.3.10.1",
+    "Version": "2025.5.18.2",
     "Author": "Cai,羽学,西江",
     "Description": {
       "en-US": "CaiBot机器人的适配插件",
@@ -494,7 +556,7 @@
   },
   {
     "Name": "CaiCustomEmojiCommand",
-    "Version": "2024.12.18.3",
+    "Version": "2025.5.18.4",
     "Author": "Cai",
     "Description": {
       "en-US": "Custom emoji for command",
@@ -516,7 +578,7 @@
   },
   {
     "Name": "CaiLib",
-    "Version": "2024.12.18.4",
+    "Version": "2025.5.18.5",
     "Author": "Cai",
     "Description": {
       "en-US": "CaiLib",
@@ -538,7 +600,7 @@
   },
   {
     "Name": "CaiRewardChest",
-    "Version": "2025.3.15.1",
+    "Version": "2025.5.18.2",
     "Author": "Cai",
     "Description": {
       "en-US": "Bonus chest ! !",
@@ -561,7 +623,7 @@
   },
   {
     "Name": "CGive",
-    "Version": "1.0.0.8",
+    "Version": "1.0.1.0",
     "Author": "Leader",
     "Description": {
       "en-US": "Give offline",
@@ -581,7 +643,7 @@
   },
   {
     "Name": "Challenger",
-    "Version": "1.0.1.9",
+    "Version": "1.0.1.10",
     "Author": "z枳 星夜神花 羽学",
     "Description": {
       "en-US": "Increase the difficulty of the game for better gaming experience",
@@ -601,7 +663,7 @@
   },
   {
     "Name": "Chameleon",
-    "Version": "1.1.1",
+    "Version": "1.1.2",
     "Author": "mistzzt,肝帝熙恩",
     "Description": {
       "en-US": "Account system interactive replacement solution",
@@ -623,7 +685,7 @@
   },
   {
     "Name": "ChattyBridge",
-    "Version": "1.0.1.3",
+    "Version": "1.0.1.4",
     "Author": "少司命",
     "Description": {
       "en-US": "ChattyBridge",
@@ -645,7 +707,7 @@
   },
   {
     "Name": "ChestRestore",
-    "Version": "1.0.9",
+    "Version": "1.2.0",
     "Author": "Cjx重构 ，肝帝熙恩简单修改",
     "Description": {
       "en-US": "Infinite treasure chest plugin",
@@ -687,7 +749,7 @@
   },
   {
     "Name": "CNPCShop",
-    "Version": "1.0.4",
+    "Version": "1.0.5",
     "Author": "Megghy，肝帝熙恩更新1449",
     "Description": {
       "en-US": "Customize items sold in NPC shops",
@@ -695,7 +757,7 @@
       "it-IT": "自定义NPC商店出售的物品",
       "fr-FR": "自定义NPC商店出售的物品",
       "es-ES": "自定义NPC商店出售的物品",
-      "ru-RU": "自定义NPC商店出售的物品",
+      "ru-RU": "Позволяет настраивать продажи NPC",
       "zh-CN": "自定义NPC商店出售的物品",
       "pt-BR": "自定义NPC商店出售的物品",
       "pl-PL": "自定义NPC商店出售的物品"
@@ -707,7 +769,7 @@
   },
   {
     "Name": "ConsoleSql",
-    "Version": "1.0.2",
+    "Version": "1.0.3",
     "Author": "Cai",
     "Description": {
       "en-US": "Allows the console to execute SQL operations on the database",
@@ -727,7 +789,7 @@
   },
   {
     "Name": "ConvertWorld",
-    "Version": "1.0.4",
+    "Version": "1.0.5",
     "Author": "onusai 羽学",
     "Description": {
       "en-US": "Defeat the specified monster to replace the specified tile in the world and all items in the chest",
@@ -746,30 +808,8 @@
     "HotReload": true
   },
   {
-    "Name": "CreateSpawn",
-    "Version": "1.0.0.5",
-    "Author": "少司命",
-    "Description": {
-      "en-US": "Birth building",
-      "de-DE": "出生建筑",
-      "it-IT": "出生建筑",
-      "fr-FR": "出生建筑",
-      "es-ES": "出生建筑",
-      "ru-RU": "出生建筑",
-      "zh-CN": "出生建筑",
-      "pt-BR": "出生建筑",
-      "pl-PL": "出生建筑"
-    },
-    "AssemblyName": "CreateSpawn",
-    "Path": "CreateSpawn.dll",
-    "Dependencies": [
-      "LazyAPI"
-    ],
-    "HotReload": true
-  },
-  {
     "Name": "CriticalHit",
-    "Version": "1.2.3",
+    "Version": "1.2.4",
     "Author": "White制作,Stone·Free汉化整合，肝帝熙恩更新适配1449",
     "Description": {
       "en-US": "Provide floating text effect when attacking NPC",
@@ -777,7 +817,7 @@
       "it-IT": "提供攻击NPC跳出浮动文字效果",
       "fr-FR": "提供攻击NPC跳出浮动文字效果",
       "es-ES": "提供攻击NPC跳出浮动文字效果",
-      "ru-RU": "提供攻击NPC跳出浮动文字效果",
+      "ru-RU": "Отображает \"плавающий\" текст, когда наносится критический урон",
       "zh-CN": "提供攻击NPC跳出浮动文字效果",
       "pt-BR": "提供攻击NPC跳出浮动文字效果",
       "pl-PL": "提供攻击NPC跳出浮动文字效果"
@@ -789,7 +829,7 @@
   },
   {
     "Name": "CustomMonster",
-    "Version": "1.0.4.41",
+    "Version": "1.0.4.42",
     "Author": "GK 阁下 羽学",
     "Description": {
       "en-US": "Customize the health volume when monsters appear, of course it’s more than that!",
@@ -809,7 +849,7 @@
   },
   {
     "Name": "DamageRuleLoot",
-    "Version": "1.3.4",
+    "Version": "1.3.5",
     "Author": "羽学 西江小子",
     "Description": {
       "en-US": "The penalty for dropping treasure bags is determined based on the output ranking list, and relative damage rules are dealt with for each BOSS.",
@@ -817,7 +857,7 @@
       "it-IT": "根据输出排名榜决定是否掉落宝藏袋的惩罚，并对各个BOSS进行相对的伤害规则处理",
       "fr-FR": "根据输出排名榜决定是否掉落宝藏袋的惩罚，并对各个BOSS进行相对的伤害规则处理",
       "es-ES": "根据输出排名榜决定是否掉落宝藏袋的惩罚，并对各个BOSS进行相对的伤害规则处理",
-      "ru-RU": "根据输出排名榜决定是否掉落宝藏袋的惩罚，并对各个BOSS进行相对的伤害规则处理",
+      "ru-RU": "Позволяет отображать нанесённый урон по NPC, настраивать получение сокровищ, таблица лидеров",
       "zh-CN": "根据输出排名榜决定是否掉落宝藏袋的惩罚，并对各个BOSS进行相对的伤害规则处理",
       "pt-BR": "根据输出排名榜决定是否掉落宝藏袋的惩罚，并对各个BOSS进行相对的伤害规则处理",
       "pl-PL": "根据输出排名榜决定是否掉落宝藏袋的惩罚，并对各个BOSS进行相对的伤害规则处理"
@@ -829,7 +869,7 @@
   },
   {
     "Name": "DamageStatistic",
-    "Version": "1.0.3",
+    "Version": "1.0.4",
     "Author": "Megghy",
     "Description": {
       "en-US": "Displays the damage done by each player after each boss fight",
@@ -837,7 +877,7 @@
       "it-IT": "在每次 Boss 战后显示每个玩家造成的伤害。",
       "fr-FR": "在每次 Boss 战后显示每个玩家造成的伤害。",
       "es-ES": "Muestra el daño causado por cada jugador después de cada pelea con el jefe.",
-      "ru-RU": "在每次 Boss 战后显示每个玩家造成的伤害。",
+      "ru-RU": "Отображает кол-во нанесённого игроками урона по боссам",
       "zh-CN": "在每次 Boss 战后显示每个玩家造成的伤害。",
       "pt-BR": "在每次 Boss 战后显示每个玩家造成的伤害。",
       "pl-PL": "在每次 Boss 战后显示每个玩家造成的伤害。"
@@ -849,7 +889,7 @@
   },
   {
     "Name": "DataSync",
-    "Version": "2025.1.29",
+    "Version": "2025.5.18",
     "Author": "None",
     "Description": {
       "en-US": "None",
@@ -869,7 +909,7 @@
   },
   {
     "Name": "DeathDrop",
-    "Version": "1.0.5",
+    "Version": "1.0.6",
     "Author": "大豆子，肝帝熙恩更新优化",
     "Description": {
       "en-US": "Random and custom items dropped by monsters upon death",
@@ -877,7 +917,7 @@
       "it-IT": "怪物死亡随机和自定义掉落物品",
       "fr-FR": "怪物死亡随机和自定义掉落物品",
       "es-ES": "Objetos aleatorios y personalizados que arrojan los monstruos al morir",
-      "ru-RU": "怪物死亡随机和自定义掉落物品",
+      "ru-RU": "Позволяет настраивать случайный дроп с убийства NPC",
       "zh-CN": "怪物死亡随机和自定义掉落物品",
       "pt-BR": "怪物死亡随机和自定义掉落物品",
       "pl-PL": "怪物死亡随机和自定义掉落物品"
@@ -889,7 +929,7 @@
   },
   {
     "Name": "DisableMonsLoot",
-    "Version": "1.3.4",
+    "Version": "1.3.5",
     "Author": "羽学",
     "Description": {
       "en-US": "Prevents excluded items from being dropped by monsters",
@@ -909,7 +949,7 @@
   },
   {
     "Name": "DonotFuck",
-    "Version": "3.2.3",
+    "Version": "3.2.4",
     "Author": "Cai 羽学",
     "Description": {
       "en-US": "When players chat with sensitive words, use * to replace the word.",
@@ -931,7 +971,7 @@
   },
   {
     "Name": "DTEntryBlock",
-    "Version": "1.1.7",
+    "Version": "1.1.8",
     "Author": "肝帝熙恩",
     "Description": {
       "en-US": "Prevent players from entering the dungeon/temple before defeating Skeletron/Plantera",
@@ -951,7 +991,7 @@
   },
   {
     "Name": "Dummy",
-    "Version": "1.0.0.1",
+    "Version": "1.0.0.3",
     "Author": "少司命",
     "Description": {
       "en-US": "Place dummies in your server!",
@@ -959,7 +999,7 @@
       "it-IT": "在你的服务器中放置假人！",
       "fr-FR": "在你的服务器中放置假人！",
       "es-ES": "在你的服务器中放置假人！",
-      "ru-RU": "在你的服务器中放置假人！",
+      "ru-RU": "Позволяет создавать манекенов-игроков!",
       "zh-CN": "在你的服务器中放置假人！",
       "pt-BR": "在你的服务器中放置假人！",
       "pl-PL": "在你的服务器中放置假人！"
@@ -974,7 +1014,7 @@
   },
   {
     "Name": "DumpTerrariaID",
-    "Version": "1.0.0.4",
+    "Version": "1.0.0.6",
     "Author": "少司命",
     "Description": {
       "en-US": "Dump ID",
@@ -994,7 +1034,7 @@
   },
   {
     "Name": "DwTP",
-    "Version": "1.0.2",
+    "Version": "1.0.3",
     "Author": "羽学",
     "Description": {
       "en-US": "Use the /dw command to teleport to the shimmer, dungeon, temple, bud, and treasure bag location.",
@@ -1013,8 +1053,28 @@
     "HotReload": true
   },
   {
+    "Name": "Economics.Core",
+    "Version": "2.0.0.8",
+    "Author": "少司命",
+    "Description": {
+      "en-US": "Provides economic system API",
+      "de-DE": "提供经济系统API",
+      "it-IT": "提供经济系统API",
+      "fr-FR": "提供经济系统API",
+      "es-ES": "提供经济系统API",
+      "ru-RU": "提供经济系统API",
+      "zh-CN": "提供经济系统API",
+      "pt-BR": "提供经济系统API",
+      "pl-PL": "提供经济系统API"
+    },
+    "AssemblyName": "Economics.Core",
+    "Path": "Economics.Core.dll",
+    "Dependencies": [],
+    "HotReload": true
+  },
+  {
     "Name": "Economics.Deal",
-    "Version": "2.0.0.3",
+    "Version": "2.0.0.5",
     "Author": "少司命",
     "Description": {
       "en-US": "Players can trade",
@@ -1030,13 +1090,13 @@
     "AssemblyName": "Economics.Deal",
     "Path": "Economics.Deal.dll",
     "Dependencies": [
-      "EconomicsAPI"
+      "Economics.Core"
     ],
     "HotReload": true
   },
   {
     "Name": "Economics.NPC",
-    "Version": "2.0.0.2",
+    "Version": "2.0.0.4",
     "Author": "少司命",
     "Description": {
       "en-US": "Modify the currency dropped by NPC!",
@@ -1052,13 +1112,13 @@
     "AssemblyName": "Economics.NPC",
     "Path": "Economics.NPC.dll",
     "Dependencies": [
-      "EconomicsAPI"
+      "Economics.Core"
     ],
     "HotReload": true
   },
   {
     "Name": "Economics.Regain",
-    "Version": "2.0.0.2",
+    "Version": "2.0.0.4",
     "Author": "少司命",
     "Description": {
       "en-US": "Recycle player items!",
@@ -1074,13 +1134,13 @@
     "AssemblyName": "Economics.Regain",
     "Path": "Economics.Regain.dll",
     "Dependencies": [
-      "EconomicsAPI"
+      "Economics.Core"
     ],
     "HotReload": true
   },
   {
     "Name": "Economics.RPG",
-    "Version": "2.0.0.4",
+    "Version": "2.0.0.6",
     "Author": "少司命",
     "Description": {
       "en-US": "Provides RPG gameplay!",
@@ -1096,13 +1156,13 @@
     "AssemblyName": "Economics.RPG",
     "Path": "Economics.RPG.dll",
     "Dependencies": [
-      "EconomicsAPI"
+      "Economics.Core"
     ],
     "HotReload": true
   },
   {
     "Name": "Economics.Shop",
-    "Version": "2.0.0.2",
+    "Version": "2.0.0.4",
     "Author": "少司命",
     "Description": {
       "en-US": "Economy shop!",
@@ -1118,14 +1178,14 @@
     "AssemblyName": "Economics.Shop",
     "Path": "Economics.Shop.dll",
     "Dependencies": [
-      "EconomicsAPI",
+      "Economics.Core",
       "Economics.RPG"
     ],
     "HotReload": true
   },
   {
     "Name": "Economics.Skill",
-    "Version": "2.0.1.1",
+    "Version": "2.0.1.5",
     "Author": "少司命",
     "Description": {
       "en-US": "Let players have skills!",
@@ -1141,7 +1201,7 @@
     "AssemblyName": "Economics.Skill",
     "Path": "Economics.Skill.dll",
     "Dependencies": [
-      "EconomicsAPI",
+      "Economics.Core",
       "Jint",
       "Economics.RPG"
     ],
@@ -1149,7 +1209,7 @@
   },
   {
     "Name": "Economics.Task",
-    "Version": "2.0.0.3",
+    "Version": "2.0.0.5",
     "Author": "少司命",
     "Description": {
       "en-US": "Provides task system!",
@@ -1165,14 +1225,14 @@
     "AssemblyName": "Economics.Task",
     "Path": "Economics.Task.dll",
     "Dependencies": [
-      "EconomicsAPI",
+      "Economics.Core",
       "Economics.RPG"
     ],
     "HotReload": true
   },
   {
     "Name": "Economics.WeaponPlus",
-    "Version": "2.0.0.4",
+    "Version": "2.0.0.7",
     "Author": "z枳 少司命",
     "Description": {
       "en-US": "Allow any weapon to be strengthened on basic attributes",
@@ -1188,33 +1248,13 @@
     "AssemblyName": "Economics.WeaponPlus",
     "Path": "Economics.WeaponPlus.dll",
     "Dependencies": [
-      "EconomicsAPI"
+      "Economics.Core"
     ],
     "HotReload": true
   },
   {
-    "Name": "EconomicsAPI",
-    "Version": "2.0.0.5",
-    "Author": "少司命",
-    "Description": {
-      "en-US": "Provides economic system API",
-      "de-DE": "提供经济系统API",
-      "it-IT": "提供经济系统API",
-      "fr-FR": "提供经济系统API",
-      "es-ES": "提供经济系统API",
-      "ru-RU": "提供经济系统API",
-      "zh-CN": "提供经济系统API",
-      "pt-BR": "提供经济系统API",
-      "pl-PL": "提供经济系统API"
-    },
-    "AssemblyName": "EconomicsAPI",
-    "Path": "EconomicsAPI.dll",
-    "Dependencies": [],
-    "HotReload": true
-  },
-  {
     "Name": "EndureBoost",
-    "Version": "1.0.6",
+    "Version": "1.0.7",
     "Author": "肝帝熙恩",
     "Description": {
       "en-US": "Possess a specified number of items for a specified buff",
@@ -1234,7 +1274,7 @@
   },
   {
     "Name": "EssentialsPlus",
-    "Version": "1.0.7",
+    "Version": "1.0.9",
     "Author": "WhiteX等人，Average,Cjx,肝帝熙恩翻译,Cai更新",
     "Description": {
       "en-US": "Enhanced version Essentials ",
@@ -1256,7 +1296,7 @@
   },
   {
     "Name": "Ezperm",
-    "Version": "1.2.9",
+    "Version": "1.2.10",
     "Author": "大豆子,肝帝熙恩优化1449",
     "Description": {
       "en-US": "A command to help beginners add missing permissions to the initial server and also allows for batch addition and deletion of permissions",
@@ -1264,7 +1304,7 @@
       "it-IT": "一个指令帮助小白给初始服务器添加缺失的权限，还可以批量添删权限",
       "fr-FR": "一个指令帮助小白给初始服务器添加缺失的权限，还可以批量添删权限",
       "es-ES": "一个指令帮助小白给初始服务器添加缺失的权限，还可以批量添删权限",
-      "ru-RU": "一个指令帮助小白给初始服务器添加缺失的权限，还可以批量添删权限",
+      "ru-RU": "Позволяет облегчить работу с добавлением/удалением прав (permissions) для групп через команду /inperms",
       "zh-CN": "一个指令帮助小白给初始服务器添加缺失的权限，还可以批量添删权限",
       "pt-BR": "一个指令帮助小白给初始服务器添加缺失的权限，还可以批量添删权限",
       "pl-PL": "一个指令帮助小白给初始服务器添加缺失的权限，还可以批量添删权限"
@@ -1298,7 +1338,7 @@
   },
   {
     "Name": "GenerateMap",
-    "Version": "1.0.4",
+    "Version": "1.0.5",
     "Author": "少司命",
     "Description": {
       "en-US": "Generate map image",
@@ -1306,7 +1346,7 @@
       "it-IT": "生成地图图片",
       "fr-FR": "生成地图图片",
       "es-ES": "生成地图图片",
-      "ru-RU": "生成地图图片",
+      "ru-RU": "Позволяет генерировать изображение карты.",
       "zh-CN": "生成地图图片",
       "pt-BR": "生成地图图片",
       "pl-PL": "生成地图图片"
@@ -1320,7 +1360,7 @@
   },
   {
     "Name": "GoodNight",
-    "Version": "2.7.6",
+    "Version": "2.7.7",
     "Author": "Jonesn 羽学 少司命",
     "Description": {
       "en-US": "Set when the server is unable to enter or disable the spawn mob",
@@ -1340,7 +1380,7 @@
   },
   {
     "Name": "HardPlayerDrop",
-    "Version": "1.0.2",
+    "Version": "1.0.3",
     "Author": "羽学",
     "Description": {
       "en-US": "Calculate how many life crystals will be dropped after death based on the player's health value",
@@ -1348,7 +1388,7 @@
       "it-IT": "根据玩家血量计算死亡后会掉落多少生命水晶",
       "fr-FR": "根据玩家血量计算死亡后会掉落多少生命水晶",
       "es-ES": "根据玩家血量计算死亡后会掉落多少生命水晶",
-      "ru-RU": "根据玩家血量计算死亡后会掉落多少生命水晶",
+      "ru-RU": "Позволяет рассчитать кол-во выпавших кристаллов жизни после смерти игрока пропорционально от его HP",
       "zh-CN": "根据玩家血量计算死亡后会掉落多少生命水晶",
       "pt-BR": "根据玩家血量计算死亡后会掉落多少生命水晶",
       "pl-PL": "根据玩家血量计算死亡后会掉落多少生命水晶"
@@ -1360,7 +1400,7 @@
   },
   {
     "Name": "HouseRegion",
-    "Version": "1.0.0.9",
+    "Version": "1.0.0.10",
     "Author": "GK 阁下 改良",
     "Description": {
       "en-US": "Plugin for protecting houses.",
@@ -1382,7 +1422,7 @@
   },
   {
     "Name": "Invincibility",
-    "Version": "1.1.0",
+    "Version": "1.1.1",
     "Author": "肝帝熙恩",
     "Description": {
       "en-US": "Gives the player invincibility for a period of time in the command.",
@@ -1402,7 +1442,7 @@
   },
   {
     "Name": "ItemBox",
-    "Version": "2024.12.18.3",
+    "Version": "2025.5.18.4",
     "Author": "Cai & 2409",
     "Description": {
       "en-US": "Offline item box system.",
@@ -1422,7 +1462,7 @@
   },
   {
     "Name": "ItemDecoration",
-    "Version": "3.0.0",
+    "Version": "3.0.1",
     "Author": "FrankV22, Soofa, 少司命",
     "Description": {
       "en-US": "Show Item Decoration and More!!!",
@@ -1444,7 +1484,7 @@
   },
   {
     "Name": "ItemPreserver",
-    "Version": "1.0.10",
+    "Version": "1.0.11",
     "Author": "肝帝熙恩 & 少司命",
     "Description": {
       "en-US": "Specified items can not consumed",
@@ -1464,7 +1504,7 @@
   },
   {
     "Name": "JourneyUnlock",
-    "Version": "1.0.1.5",
+    "Version": "1.0.1.6",
     "Author": "Maxthegreat99，肝帝熙恩汉化",
     "Description": {
       "en-US": "Allows you to unlock all or specific items for your character on journey",
@@ -1484,18 +1524,18 @@
   },
   {
     "Name": "Lagrange.XocMat.Adapter",
-    "Version": "1.0.0.4",
+    "Version": "1.0.0.6",
     "Author": "少司命",
     "Description": {
-      "en-US": "Adaptation plugin",
-      "de-DE": "适配插件",
-      "it-IT": "适配插件",
-      "fr-FR": "适配插件",
-      "es-ES": "Complemento de adaptación",
-      "ru-RU": "适配插件",
-      "zh-CN": "适配插件",
-      "pt-BR": "适配插件",
-      "pl-PL": "适配插件"
+      "en-US": "Lagrange.XocMat Bot Adapter Plugin",
+      "de-DE": "Lagrange.XocMat机器人适配插件",
+      "it-IT": "Lagrange.XocMat机器人适配插件",
+      "fr-FR": "Lagrange.XocMat机器人适配插件",
+      "es-ES": "Lagrange.XocMat机器人适配插件",
+      "ru-RU": "Lagrange.XocMat机器人适配插件",
+      "zh-CN": "Lagrange.XocMat机器人适配插件",
+      "pt-BR": "Lagrange.XocMat机器人适配插件",
+      "pl-PL": "Lagrange.XocMat机器人适配插件"
     },
     "AssemblyName": "Lagrange.XocMat.Adapter",
     "Path": "Lagrange.XocMat.Adapter.dll",
@@ -1506,7 +1546,7 @@
   },
   {
     "Name": "LazyAPI",
-    "Version": "1.0.0.8",
+    "Version": "1.0.2.1",
     "Author": "cc004 & members of UnrealMultiple",
     "Description": {
       "en-US": "None",
@@ -1528,7 +1568,7 @@
   },
   {
     "Name": "ListPlugins",
-    "Version": "1.0.8",
+    "Version": "1.0.9",
     "Author": "iheart 修改：羽学，肝帝熙恩",
     "Description": {
       "en-US": "Use command to check installed plugins",
@@ -1548,7 +1588,7 @@
   },
   {
     "Name": "MapTp",
-    "Version": "1.0.4",
+    "Version": "1.0.5",
     "Author": "Nova4334，肝帝熙恩汉化适配1449",
     "Description": {
       "en-US": "Allows the player to teleport to a selected location on the map.",
@@ -1568,7 +1608,7 @@
   },
   {
     "Name": "MiniGamesAPI",
-    "Version": "1.1.5",
+    "Version": "1.1.6",
     "Author": "豆沙 羽学修复",
     "Description": {
       "en-US": "Mini game framework API",
@@ -1588,7 +1628,7 @@
   },
   {
     "Name": "ModifyWeapons",
-    "Version": "1.2.7.6",
+    "Version": "1.2.7.7",
     "Author": "羽学",
     "Description": {
       "en-US": "Modify player item data and automatically save and re-read. You can use the /mw command to give the player items with specified attributes",
@@ -1610,7 +1650,7 @@
   },
   {
     "Name": "MonsterRegen",
-    "Version": "1.7.4",
+    "Version": "1.7.5",
     "Author": "途逗 羽学",
     "Description": {
       "en-US": "By killing the designated boss, can increase the level of monster health recovery and customize the recovery interval",
@@ -1630,7 +1670,7 @@
   },
   {
     "Name": "MusicPlayer",
-    "Version": "1.0.6",
+    "Version": "1.0.7",
     "Author": "Olink，Cjx适配，肝帝熙恩修改, yu大改",
     "Description": {
       "en-US": "A simple music player plugin.",
@@ -1650,7 +1690,7 @@
   },
   {
     "Name": "Noagent",
-    "Version": "1.0.4",
+    "Version": "1.0.5",
     "Author": "[星迹]Jonesn，肝帝熙恩更新适配1449",
     "Description": {
       "en-US": "Disable proxy login",
@@ -1670,7 +1710,7 @@
   },
   {
     "Name": "NormalDropsBags",
-    "Version": "1.1.3.3",
+    "Version": "1.1.3.4",
     "Author": "Quinci 羽学适配",
     "Description": {
       "en-US": "Bosses can drop treasure bags on normal difficulty",
@@ -1690,10 +1730,10 @@
   },
   {
     "Name": "NoteWall",
-    "Version": "1.0.2",
+    "Version": "1.0.3",
     "Author": "肝帝熙恩",
     "Description": {
-      "en-US": "留言墙",
+      "en-US": "Note Wall",
       "de-DE": "留言墙",
       "it-IT": "留言墙",
       "fr-FR": "留言墙",
@@ -1713,7 +1753,7 @@
   },
   {
     "Name": "OnlineGiftPackage",
-    "Version": "1.0.1.6",
+    "Version": "1.0.1.7",
     "Author": "星夜神花 羽学适配",
     "Description": {
       "en-US": "Online gift package plugin ",
@@ -1733,10 +1773,10 @@
   },
   {
     "Name": "PacketsStop",
-    "Version": "1.0.6",
+    "Version": "1.0.7",
     "Author": "羽学 少司命",
     "Description": {
-      "en-US": "拦截指定玩家的数据包",
+      "en-US": "Intercept data packets of the specified player",
       "de-DE": "拦截指定玩家的数据包",
       "it-IT": "拦截指定玩家的数据包",
       "fr-FR": "拦截指定玩家的数据包",
@@ -1753,7 +1793,7 @@
   },
   {
     "Name": "PermaBuff",
-    "Version": "1.0.5",
+    "Version": "1.0.6",
     "Author": "少司命",
     "Description": {
       "en-US": "PermaBuff",
@@ -1773,7 +1813,7 @@
   },
   {
     "Name": "PerPlayerLoot",
-    "Version": "2.0.5",
+    "Version": "2.0.6",
     "Author": "Codian, 肝帝熙恩汉化1449",
     "Description": {
       "en-US": "Individual chests for player loot.",
@@ -1793,7 +1833,7 @@
   },
   {
     "Name": "PersonalPermission",
-    "Version": "1.1.0.5",
+    "Version": "1.1.0.6",
     "Author": "Megghy，肝帝熙恩更新1449",
     "Description": {
       "en-US": "Allows individual permissions for players.",
@@ -1813,7 +1853,7 @@
   },
   {
     "Name": "Platform",
-    "Version": "2025.3.30.1",
+    "Version": "2025.5.18.2",
     "Author": "Cai",
     "Description": {
       "en-US": "Determine player device",
@@ -1853,7 +1893,7 @@
   },
   {
     "Name": "PlayerRandomSwapper",
-    "Version": "1.0.7",
+    "Version": "1.0.8",
     "Author": "肝帝熙恩,少司命",
     "Description": {
       "en-US": "A plugin for randomly swapping player positions after a specified time.",
@@ -1875,7 +1915,7 @@
   },
   {
     "Name": "PlayerSpeed",
-    "Version": "1.2.5",
+    "Version": "1.2.6",
     "Author": "逆光奔跑 羽学",
     "Description": {
       "en-US": "Use commands to set player movement speed and trigger when sprinting or jumping while wearing custom equipment",
@@ -1897,7 +1937,7 @@
   },
   {
     "Name": "ProgressControls",
-    "Version": "1.0.0.12",
+    "Version": "1.1.0.1",
     "Author": "z枳 羽学",
     "Description": {
       "en-US": "Control the progress",
@@ -1917,7 +1957,7 @@
   },
   {
     "Name": "ProgressRestrict",
-    "Version": "1.0.0.5",
+    "Version": "1.0.0.6",
     "Author": "少司命 & 恋恋魔改三合一",
     "Description": {
       "en-US": "Based on progress limit",
@@ -1939,7 +1979,7 @@
   },
   {
     "Name": "PvPer",
-    "Version": "1.1.6",
+    "Version": "1.1.7",
     "Author": "Soofa 羽学修改",
     "Description": {
       "en-US": "Pvp plugin",
@@ -1958,8 +1998,28 @@
     "HotReload": true
   },
   {
+    "Name": "QRCoder",
+    "Version": "1.0.0.2",
+    "Author": "Jonesn，熙恩，Radix.",
+    "Description": {
+      "en-US": "生成二维码",
+      "de-DE": "生成二维码",
+      "it-IT": "生成二维码",
+      "fr-FR": "生成二维码",
+      "es-ES": "生成二维码",
+      "ru-RU": "生成二维码",
+      "zh-CN": "生成二维码",
+      "pt-BR": "生成二维码",
+      "pl-PL": "生成二维码"
+    },
+    "AssemblyName": "QRCoder",
+    "Path": "QRCoder.dll",
+    "Dependencies": [],
+    "HotReload": true
+  },
+  {
     "Name": "RainbowChat",
-    "Version": "1.0.9",
+    "Version": "1.0.10",
     "Author": "Professor X 熙恩 羽学",
     "Description": {
       "en-US": "Make the player chat a different color every time.",
@@ -1967,7 +2027,7 @@
       "it-IT": "使玩家每次说话的颜色不一样.",
       "fr-FR": "使玩家每次说话的颜色不一样.",
       "es-ES": "使玩家每次说话的颜色不一样.",
-      "ru-RU": "使玩家每次说话的颜色不一样.",
+      "ru-RU": "Позволяет сделать отправляемые в чат сообщения разноцветными.",
       "zh-CN": "使玩家每次说话的颜色不一样.",
       "pt-BR": "使玩家每次说话的颜色不一样.",
       "pl-PL": "使玩家每次说话的颜色不一样."
@@ -1979,7 +2039,7 @@
   },
   {
     "Name": "RandomBroadcast",
-    "Version": "1.0.6",
+    "Version": "1.0.7",
     "Author": "羽学",
     "Description": {
       "en-US": "Send a broadcast content randomly at regular intervals",
@@ -1987,7 +2047,7 @@
       "it-IT": "定时随机发送一条广播内容",
       "fr-FR": "定时随机发送一条广播内容",
       "es-ES": "定时随机发送一条广播内容",
-      "ru-RU": "定时随机发送一条广播内容",
+      "ru-RU": "Позволяет настраивать команды, которые будет отправлять сервер случайно",
       "zh-CN": "定时随机发送一条广播内容",
       "pt-BR": "定时随机发送一条广播内容",
       "pl-PL": "定时随机发送一条广播内容"
@@ -1999,7 +2059,7 @@
   },
   {
     "Name": "RandRespawn",
-    "Version": "1.0.5",
+    "Version": "1.0.6",
     "Author": "1413,肝帝熙恩适配1449",
     "Description": {
       "en-US": "Random spawn point, any operation back to the spawn point will be randomly teleported",
@@ -2007,7 +2067,7 @@
       "it-IT": "随机出生点，任何回到出生点的操作都会被随机传送",
       "fr-FR": "随机出生点，任何回到出生点的操作都会被随机传送",
       "es-ES": "随机出生点，任何回到出生点的操作都会被随机传送",
-      "ru-RU": "随机出生点，任何回到出生点的操作都会被随机传送",
+      "ru-RU": "Случайная точка спавна. При использовании предметов для возвращения на точку спавна телепортирует в случайные места",
       "zh-CN": "随机出生点，任何回到出生点的操作都会被随机传送",
       "pt-BR": "随机出生点，任何回到出生点的操作都会被随机传送",
       "pl-PL": "随机出生点，任何回到出生点的操作都会被随机传送"
@@ -2019,7 +2079,7 @@
   },
   {
     "Name": "RealTime",
-    "Version": "2.6.0.4",
+    "Version": "2.6.0.5",
     "Author": "十七",
     "Description": {
       "en-US": "Synchronize real time",
@@ -2027,7 +2087,7 @@
       "it-IT": "同步现实时间",
       "fr-FR": "同步现实时间",
       "es-ES": "同步现实时间",
-      "ru-RU": "同步现实时间",
+      "ru-RU": "Синхронизация с реальным временем",
       "zh-CN": "同步现实时间",
       "pt-BR": "同步现实时间",
       "pl-PL": "同步现实时间"
@@ -2039,7 +2099,7 @@
   },
   {
     "Name": "RecipesBrowser",
-    "Version": "1.1.2",
+    "Version": "1.1.3",
     "Author": "棱镜,羽学适配,Cai优化",
     "Description": {
       "en-US": "Ask item recipes with commands",
@@ -2047,7 +2107,7 @@
       "it-IT": "通过指令获取物品合成表",
       "fr-FR": "通过指令获取物品合成表",
       "es-ES": "通过指令获取物品合成表",
-      "ru-RU": "通过指令获取物品合成表",
+      "ru-RU": "Позволяет узнать рецепт предмета командой.",
       "zh-CN": "通过指令获取物品合成表",
       "pt-BR": "通过指令获取物品合成表",
       "pl-PL": "通过指令获取物品合成表"
@@ -2059,7 +2119,7 @@
   },
   {
     "Name": "ReFishTask",
-    "Version": "1.4.4",
+    "Version": "1.4.5",
     "Author": "羽学",
     "Description": {
       "en-US": "When you complete the angler quest, you can receive unlimited angler quest.",
@@ -2067,7 +2127,7 @@
       "it-IT": "当你完成渔夫任务时可无限接渔夫任务",
       "fr-FR": "当你完成渔夫任务时可无限接渔夫任务",
       "es-ES": "当你完成渔夫任务时可无限接渔夫任务",
-      "ru-RU": "当你完成渔夫任务时可无限接渔夫任务",
+      "ru-RU": "Позволяет выполнять задания рыбака без ожидания следующего дня.",
       "zh-CN": "当你完成渔夫任务时可无限接渔夫任务",
       "pt-BR": "当你完成渔夫任务时可无限接渔夫任务",
       "pl-PL": "当你完成渔夫任务时可无限接渔夫任务"
@@ -2079,15 +2139,15 @@
   },
   {
     "Name": "RegionView",
-    "Version": "1.1.3",
+    "Version": "1.1.4",
     "Author": "TBC开发者团队,肝帝熙恩汉化",
     "Description": {
-      "en-US": "Added a regional boundary view to the area.",
+      "en-US": "Added a regional boundary view to the region.",
       "de-DE": "为地区添加区域边界视图。",
       "it-IT": "为地区添加区域边界视图。",
       "fr-FR": "为地区添加区域边界视图。",
       "es-ES": "为地区添加区域边界视图。",
-      "ru-RU": "为地区添加区域边界视图。",
+      "ru-RU": "Добавлена возможность просмотра границ привата.",
       "zh-CN": "为地区添加区域边界视图。",
       "pt-BR": "为地区添加区域边界视图。",
       "pl-PL": "为地区添加区域边界视图。"
@@ -2099,7 +2159,7 @@
   },
   {
     "Name": "Respawn",
-    "Version": "2.0.0.3",
+    "Version": "2.0.0.4",
     "Author": "leader，肝帝熙恩",
     "Description": {
       "en-US": "Respawn at the death place",
@@ -2107,7 +2167,7 @@
       "it-IT": "原地复活",
       "fr-FR": "原地复活",
       "es-ES": "原地复活",
-      "ru-RU": "原地复活",
+      "ru-RU": "При воскрешении возвращает на точку смерти.",
       "zh-CN": "原地复活",
       "pt-BR": "原地复活",
       "pl-PL": "原地复活"
@@ -2119,7 +2179,7 @@
   },
   {
     "Name": "RestInventory",
-    "Version": "1.0.0.5",
+    "Version": "1.0.0.6",
     "Author": "少司命",
     "Description": {
       "en-US": "rest query inventory",
@@ -2127,7 +2187,7 @@
       "it-IT": "rest查询背包",
       "fr-FR": "rest查询背包",
       "es-ES": "rest查询背包",
-      "ru-RU": "rest查询背包",
+      "ru-RU": "Добавляет запросы REST на инвентарь",
       "zh-CN": "rest查询背包",
       "pt-BR": "rest查询背包",
       "pl-PL": "rest查询背包"
@@ -2139,7 +2199,7 @@
   },
   {
     "Name": "ReverseWorld",
-    "Version": "1.0.2",
+    "Version": "1.0.3",
     "Author": "1413, 肝帝熙恩适配1449",
     "Description": {
       "en-US": "None",
@@ -2159,7 +2219,7 @@
   },
   {
     "Name": "RolesModifying",
-    "Version": "1.0.5",
+    "Version": "1.0.7",
     "Author": "少司命",
     "Description": {
       "en-US": "Copy and modify the inventory of other players",
@@ -2179,7 +2239,7 @@
   },
   {
     "Name": "Sandstorm",
-    "Version": "1.0.4",
+    "Version": "1.0.5",
     "Author": "羽学",
     "Description": {
       "en-US": "Use command to toggle sandstorm",
@@ -2199,7 +2259,7 @@
   },
   {
     "Name": "ServerTools",
-    "Version": "1.1.8.5",
+    "Version": "1.2.0.0",
     "Author": "少司命",
     "Description": {
       "en-US": "Server Utility",
@@ -2222,7 +2282,7 @@
   },
   {
     "Name": "SessionSentinel",
-    "Version": "1.0.3",
+    "Version": "1.0.4",
     "Author": "肝帝熙恩",
     "Description": {
       "en-US": "Kick players who don't send packets for a long time",
@@ -2242,7 +2302,7 @@
   },
   {
     "Name": "ShowArmors",
-    "Version": "1.0.5",
+    "Version": "1.0.6",
     "Author": "Ak，肝帝熙恩更新",
     "Description": {
       "en-US": "Show equipment slot",
@@ -2262,7 +2322,7 @@
   },
   {
     "Name": "SignInSign",
-    "Version": "1.0.8",
+    "Version": "1.0.9",
     "Author": "Soofa 羽学 少司命",
     "Description": {
       "en-US": "Prompt login interactive plugin supports the popup window!",
@@ -2282,7 +2342,7 @@
   },
   {
     "Name": "SimultaneousUseFix",
-    "Version": "1.0.9",
+    "Version": "1.0.11",
     "Author": "熙恩，感谢恋恋",
     "Description": {
       "en-US": "Solve problems such as stuck double hammers and stuck star-spinning machine guns",
@@ -2304,7 +2364,7 @@
   },
   {
     "Name": "SmartRegions",
-    "Version": "1.4.7",
+    "Version": "1.4.8",
     "Author": "GameRoom，肝帝熙恩汉化修复",
     "Description": {
       "en-US": "Run the command when player enters the region.",
@@ -2324,7 +2384,7 @@
   },
   {
     "Name": "SpawnInfra",
-    "Version": "1.5.9",
+    "Version": "1.5.10",
     "Author": "羽学",
     "Description": {
       "en-US": "Create NPC housing, warehouses, cave monster spawning grounds, hell/twilight through trains, surface and hell world-class platforms (tracks) for the new world",
@@ -2344,7 +2404,7 @@
   },
   {
     "Name": "SpclPerm",
-    "Version": "1.8.4",
+    "Version": "1.8.5",
     "Author": "羽学",
     "Description": {
       "en-US": "Automatic executions: invincibility, buff, items, commands, and inventory settings",
@@ -2364,7 +2424,7 @@
   },
   {
     "Name": "StatusTextManager",
-    "Version": "1.1.3",
+    "Version": "1.1.4",
     "Author": "LaoSparrow",
     "Description": {
       "en-US": "Manage status text of different plugins",
@@ -2384,7 +2444,7 @@
   },
   {
     "Name": "SurfaceBlock",
-    "Version": "2.0.0.2",
+    "Version": "2.0.0.3",
     "Author": "羽学 Cai 西江小子 熙恩",
     "Description": {
       "en-US": "Prevent specific projectiles from being generated on the surface",
@@ -2406,7 +2466,7 @@
   },
   {
     "Name": "SurvivalCrisis",
-    "Version": "1.0.0.0",
+    "Version": "1.0.0",
     "Author": "TOFOUT",
     "Description": {
       "en-US": "a survival game",
@@ -2426,7 +2486,7 @@
   },
   {
     "Name": "SwitchCommands",
-    "Version": "1.2.6",
+    "Version": "1.2.7",
     "Author": "Johuan Cjx适配 羽学，肝帝熙恩优化",
     "Description": {
       "en-US": "Trigger switch can execute commands",
@@ -2446,7 +2506,7 @@
   },
   {
     "Name": "TeleportRequest",
-    "Version": "1.0.3",
+    "Version": "1.0.4",
     "Author": "原作者: MarioE, 修改者: Dr.Toxic，肝帝熙恩",
     "Description": {
       "en-US": "Require teleport to accept or reject requests before transmitting",
@@ -2466,7 +2526,7 @@
   },
   {
     "Name": "TimeRate",
-    "Version": "1.2.2",
+    "Version": "1.2.3",
     "Author": "羽学",
     "Description": {
       "en-US": "Change Time Acceleration with Instructions",
@@ -2486,7 +2546,7 @@
   },
   {
     "Name": "TimerKeeper",
-    "Version": "2024.12.18.4",
+    "Version": "2025.5.18.5",
     "Author": "Cai",
     "Description": {
       "en-US": "Save Timer",
@@ -2506,7 +2566,7 @@
   },
   {
     "Name": "TownNPCHomes",
-    "Version": "1.1.4",
+    "Version": "1.1.5",
     "Author": "棱镜 羽学优化",
     "Description": {
       "en-US": "None",
@@ -2525,30 +2585,8 @@
     "HotReload": true
   },
   {
-    "Name": "TShockConfigMultiLang",
-    "Version": "1.0.3",
-    "Author": "肝帝熙恩，羽学",
-    "Description": {
-      "en-US": "Create a localized language config",
-      "de-DE": "创建一个本地化语言的config",
-      "it-IT": "创建一个本地化语言的config",
-      "fr-FR": "创建一个本地化语言的config",
-      "es-ES": "创建一个本地化语言的config",
-      "ru-RU": "创建一个本地化语言的config",
-      "zh-CN": "创建一个本地化语言的config",
-      "pt-BR": "创建一个本地化语言的config",
-      "pl-PL": "创建一个本地化语言的config"
-    },
-    "AssemblyName": "TShockConfigMultiLang",
-    "Path": "TShockConfigMultiLang.dll",
-    "Dependencies": [
-      "LazyAPI"
-    ],
-    "HotReload": true
-  },
-  {
     "Name": "UnseenInventory",
-    "Version": "1.0.3",
+    "Version": "1.0.4",
     "Author": "肝帝熙恩",
     "Description": {
       "en-US": "Allow server-side generate \"unobtainable\" items",
@@ -2568,7 +2606,7 @@
   },
   {
     "Name": "VBY.GameContentModify",
-    "Version": "1.10.0.0",
+    "Version": "1.10.0.1",
     "Author": "yu",
     "Description": {
       "en-US": "一些游戏内容的修改 For Terraria v1.4.4.9",
@@ -2590,7 +2628,7 @@
   },
   {
     "Name": "VBY.OtherCommand",
-    "Version": "1.1.1.0",
+    "Version": "1.1.1.1",
     "Author": "yu",
     "Description": {
       "en-US": "一些其他的辅助命令",
@@ -2654,7 +2692,7 @@
   },
   {
     "Name": "VeinMiner",
-    "Version": "1.6.1.0",
+    "Version": "1.6.1.1",
     "Author": "Megghy, YSpoof, Maxthegreat99, 肝帝熙恩, Cai",
     "Description": {
       "en-US": "Vein miner plug-in!",
@@ -2674,7 +2712,7 @@
   },
   {
     "Name": "VotePlus",
-    "Version": "1.0.0.4",
+    "Version": "1.0.0.5",
     "Author": "Cai",
     "Description": {
       "en-US": "Voting plugin",
@@ -2694,7 +2732,7 @@
   },
   {
     "Name": "WeaponPlus",
-    "Version": "1.0.0.6",
+    "Version": "1.0.0.7",
     "Author": "z枳",
     "Description": {
       "en-US": "Allow to modify weapon to be strengthened on basic attributes",
@@ -2734,7 +2772,7 @@
   },
   {
     "Name": "ZHIPlayerManager",
-    "Version": "1.0.2.4",
+    "Version": "1.0.2.9",
     "Author": "z枳",
     "Description": {
       "en-US": "Player management, provides to modify any player information, allows players to back up, roll back, etc.",
@@ -2754,7 +2792,7 @@
   },
   {
     "Name": "ProgressBag",
-    "Version": "1.0.1.5",
+    "Version": "1.0.1.7",
     "Author": "少司命",
     "Description": {
       "en-US": "Progress Bag",
@@ -2776,7 +2814,7 @@
   },
   {
     "Name": "GolfRewards",
-    "Version": "1.1.0",
+    "Version": "1.1.1",
     "Author": "GK 阁下 由 鸽子 定制，肝帝熙恩更新适配1449",
     "Description": {
       "en-US": "Hitting the golf ball into the hole will receive rewards.",
@@ -2784,7 +2822,7 @@
       "it-IT": "将高尔夫打入球洞会得到奖励.",
       "fr-FR": "将高尔夫打入球洞会得到奖励.",
       "es-ES": "将高尔夫打入球洞会得到奖励.",
-      "ru-RU": "将高尔夫打入球洞会得到奖励.",
+      "ru-RU": "Позволяет редактировать награды за игру в гольф.",
       "zh-CN": "将高尔夫打入球洞会得到奖励.",
       "pt-BR": "将高尔夫打入球洞会得到奖励.",
       "pl-PL": "将高尔夫打入球洞会得到奖励."
@@ -2796,10 +2834,10 @@
   },
   {
     "Name": "History",
-    "Version": "1.0.7",
+    "Version": "1.0.9",
     "Author": "Cracker64 & Zaicon & Cai & 肝帝熙恩",
     "Description": {
-      "en-US": "Record grid operations.",
+      "en-US": "Record tiles history.",
       "de-DE": "记录图格操作.",
       "it-IT": "记录图格操作.",
       "fr-FR": "记录图格操作.",
@@ -2816,7 +2854,7 @@
   },
   {
     "Name": "Economics.Projectile",
-    "Version": "1.0.0.7",
+    "Version": "1.0.0.9",
     "Author": "少司命",
     "Description": {
       "en-US": "Enhanced weapon projectile!",
@@ -2832,14 +2870,14 @@
     "AssemblyName": "Economics.Projectile",
     "Path": "Economics.Projectile.dll",
     "Dependencies": [
-      "EconomicsAPI",
+      "Economics.Core",
       "Economics.RPG"
     ],
     "HotReload": true
   },
   {
     "Name": "RebirthCoin",
-    "Version": "1.0.0.5",
+    "Version": "1.0.0.6",
     "Author": "GK 阁下",
     "Description": {
       "en-US": "The magical power to resurrect the dead instantly!",
@@ -2847,7 +2885,7 @@
       "it-IT": "让死者瞬间原地复活的神奇力量！",
       "fr-FR": "让死者瞬间原地复活的神奇力量！",
       "es-ES": "让死者瞬间原地复活的神奇力量！",
-      "ru-RU": "让死者瞬间原地复活的神奇力量！",
+      "ru-RU": "Позволяет игрокам моментально воскрешаться после смерти!",
       "zh-CN": "让死者瞬间原地复活的神奇力量！",
       "pt-BR": "让死者瞬间原地复活的神奇力量！",
       "pl-PL": "让死者瞬间原地复活的神奇力量！"
@@ -2879,7 +2917,7 @@
   },
   {
     "Name": "LifemaxExtra",
-    "Version": "1.0.1.0",
+    "Version": "1.0.1.1",
     "Author": "佚名 & 肝帝熙恩 & 少司命",
     "Description": {
       "en-US": "Increase health and mana limit",
@@ -2901,7 +2939,7 @@
   },
   {
     "Name": "ShortCommand",
-    "Version": "1.3.0.5",
+    "Version": "1.3.0.6",
     "Author": "GK 少司命修复版",
     "Description": {
       "en-US": "Short command plugin improved by GK!",
@@ -2921,7 +2959,7 @@
   },
   {
     "Name": "HelpPlus",
-    "Version": "2024.12.18.4",
+    "Version": "2025.5.18.5",
     "Author": "Cai",
     "Description": {
       "en-US": "Better Help Command",
@@ -2929,7 +2967,7 @@
       "it-IT": "更好的Help",
       "fr-FR": "更好的Help",
       "es-ES": "更好的Help",
-      "ru-RU": "更好的Help",
+      "ru-RU": "Улучшенная команда /help",
       "zh-CN": "更好的Help",
       "pt-BR": "更好的Help",
       "pl-PL": "更好的Help"
@@ -2941,7 +2979,7 @@
   },
   {
     "Name": "WikiLangPackLoader",
-    "Version": "2024.12.18.3",
+    "Version": "2025.5.18.2",
     "Author": "Cai",
     "Description": {
       "en-US": "Load Wiki language pack",

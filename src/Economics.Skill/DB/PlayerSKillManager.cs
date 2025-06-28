@@ -1,4 +1,5 @@
 ﻿using Economics.Skill.Model;
+using Economics.Skill.Setting;
 using MySql.Data.MySqlClient;
 using System.Data;
 using TShockAPI;
@@ -16,9 +17,9 @@ public class PlayerSKillManager
 
         public int BindItem { get; }
 
-        public TSPlayer? Player => EconomicsAPI.Economics.ServerPlayers.Find(x => x.Name == this.Name);
+        public TSPlayer? Player => Core.Economics.ServerPlayers.Find(x => x.Name == this.Name);
 
-        public SkillContext? Skill => Economics.Skill.Skill.Config.GetSkill(this.ID);
+        public SkillContext? Skill => Config.Instance.GetSkill(this.ID);
 
         public int SkillCD = 0;
 
@@ -46,7 +47,7 @@ public class PlayerSKillManager
             new SqlColumn("Name", MySqlDbType.Text) { Length = 500 },
             new SqlColumn("BindItem", MySqlDbType.Int32) { Length = 255 }
               );
-        var List = new SqlTableCreator(this.database, this.database.GetSqlType() == SqlType.Sqlite ? new SqliteQueryCreator() : new MysqlQueryCreator());
+        var List = new SqlTableCreator(this.database, this.database.GetSqlQueryBuilder());
         List.EnsureTableStructure(Skeleton);
         this.ReadAll();
     }

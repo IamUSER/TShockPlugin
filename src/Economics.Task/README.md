@@ -19,6 +19,9 @@
 | /task list [页码]   |  economics.task.use  |  查看任务列表  |
 | /task reset       | economics.task.admin |   重置任务   |
 
+## 进度限制
+Economics文档：[进度限制值](../EconomicsAPI/README.md)
+
 ## 配置
 > 配置文件位置：tshock/Economics/Task.json
 ```json5
@@ -64,13 +67,11 @@
 ```
 ## 更新日志
 
-```
-v2.0.0.3
-添加 GetString
+### v2.0.0.3
+- 添加 GetString
 
-V2.0.0.0
-适配多货币
-```
+### V2.0.0.0
+- 适配多货币
 ## 反馈
 
 - 共同维护的插件库：https://github.com/UnrealMultiple/TShockPlugin
